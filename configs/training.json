@@ -1,0 +1,52 @@
+{
+  "weeklyHoursBudget": 60,
+  "baseDeterminationDivisor": 40.0,
+  "peakAgeMax": 21,
+  "veteranAgeThreshold": 24,
+  "veteranMechanicalMultiplier": 0.35,
+  "nightlyFatigueRecovery": 25.0,
+  "synergyPerMatchSameLineup": 2.0,
+  "synergySubPenalty": 15.0,
+  "programs": [
+    {
+      "id": "tr_aim_lab",
+      "name": "Aim & Recoil Drills",
+      "targetAttributes": [ "aim", "recoil", "longRange" ],
+      "growthPerHour": 0.018,
+      "fatiguePerHour": 0.65,
+      "synergyGainPerHour": 0.0
+    },
+    {
+      "id": "tr_cqc_arena",
+      "name": "CQC & Gloo Reflex Arena",
+      "targetAttributes": [ "cqc", "reflex", "movement", "utility" ],
+      "growthPerHour": 0.018,
+      "fatiguePerHour": 0.75,
+      "synergyGainPerHour": 0.05
+    },
+    {
+      "id": "tr_vod_review",
+      "name": "Macro VOD & IGL Workshop",
+      "targetAttributes": [ "decision", "awareness", "positioning", "looting" ],
+      "growthPerHour": 0.017,
+      "fatiguePerHour": 0.45,
+      "synergyGainPerHour": 0.12
+    },
+    {
+      "id": "tr_scrim_block",
+      "name": "Full Squad Scrim Block",
+      "targetAttributes": [ "comms", "teamwork", "composure", "stamina" ],
+      "growthPerHour": 0.016,
+      "fatiguePerHour": 0.80,
+      "synergyGainPerHour": 0.30
+    },
+    {
+      "id": "tr_recovery",
+      "name": "Active Recovery & Mental Conditioning",
+      "targetAttributes": [ "composure", "stamina", "determination" ],
+      "growthPerHour": 0.008,
+      "fatiguePerHour": -0.60,
+      "synergyGainPerHour": 0.05
+    }
+  ]
+}

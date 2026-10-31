@@ -1,0 +1,5692 @@
+{
+  "teams": [
+    {
+      "teamId": "t_evos",
+      "name": "EVOS Divine",
+      "region": "SEA",
+      "colorHex": "#2274A5",
+      "lineup": {
+        "starters": [
+          {
+            "playerId": "p_001",
+            "role": "Rusher",
+            "active": "sk_dash",
+            "passives": [
+              "sk_p_aim",
+              "sk_p_move",
+              "sk_p_armor"
+            ]
+          },
+          {
+            "playerId": "p_002",
+            "role": "SecondRusher",
+            "active": "sk_shield",
+            "passives": [
+              "sk_p_armor",
+              "sk_p_gloo",
+              "sk_p_heal"
+            ]
+          },
+          {
+            "playerId": "p_003",
+            "role": "Sniper",
+            "active": "sk_scan",
+            "passives": [
+              "sk_p_heal",
+              "sk_p_loot",
+              "sk_p_aim"
+            ]
+          },
+          {
+            "playerId": "p_004",
+            "role": "Support",
+            "active": "sk_heal",
+            "passives": [
+              "sk_p_aim",
+              "sk_p_move",
+              "sk_p_armor"
+            ]
+          }
+        ],
+        "sub": "p_005",
+        "igl": "p_004"
+      },
+      "playbook": {
+        "drop": "Hot",
+        "rotation": "Early",
+        "engage": "Contest",
+        "endgame": "HighGround"
+      },
+      "synergy": 75,
+      "players": [
+        {
+          "playerId": "p_001",
+          "name": "Ryo",
+          "age": 22,
+          "region": "SEA",
+          "mechanical": {
+            "aim": 13.8,
+            "recoil": 17.8,
+            "reflex": 13.2,
+            "movement": 17.6,
+            "cqc": 12.9,
+            "longRange": 12.4
+          },
+          "tactical": {
+            "awareness": 13.8,
+            "positioning": 15.1,
+            "utility": 12.6,
+            "looting": 15.5,
+            "decision": 11.4,
+            "comms": 14.2
+          },
+          "mental": {
+            "composure": 15.5,
+            "teamwork": 15.8,
+            "determination": 12.5
+          },
+          "hidden": {
+            "consistency": 15.7,
+            "bigMatch": 15.3,
+            "injuryProne": 6.8
+          },
+          "condition": {
+            "stamina": 11.8,
+            "form": 0,
+            "fatigue": 0
+          },
+          "roleProficiency": {
+            "Rusher": 16.8,
+            "SecondRusher": 10.8,
+            "Sniper": 10.8,
+            "Support": 10.8,
+            "Grenadier": 10.8
+          },
+          "skillProficiency": {
+            "sk_dash": 16.3,
+            "sk_shield": 11.8,
+            "sk_scan": 11.8,
+            "sk_heal": 11.8,
+            "sk_deploy": 11.8
+          }
+        },
+        {
+          "playerId": "p_002",
+          "name": "Geday",
+          "age": 19,
+          "region": "SEA",
+          "mechanical": {
+            "aim": 11.5,
+            "recoil": 13.7,
+            "reflex": 10.5,
+            "movement": 14.4,
+            "cqc": 15.5,
+            "longRange": 12.8
+          },
+          "tactical": {
+            "awareness": 13.9,
+            "positioning": 11.9,
+            "utility": 14.1,
+            "looting": 17.6,
+            "decision": 15.5,
+            "comms": 19
+          },
+          "mental": {
+            "composure": 15.1,
+            "teamwork": 16.8,
+            "determination": 17.6
+          },
+          "hidden": {
+            "consistency": 13.6,
+            "bigMatch": 12.9,
+            "injuryProne": 8.7
+          },
+          "condition": {
+            "stamina": 13.4,
+            "form": 0,
+            "fatigue": 0
+          },
+          "roleProficiency": {
+            "Rusher": 10.8,
+            "SecondRusher": 16.8,
+            "Sniper": 10.8,
+            "Support": 10.8,
+            "Grenadier": 10.8
+          },
+          "skillProficiency": {
+            "sk_dash": 11.8,
+            "sk_shield": 16.3,
+            "sk_scan": 11.8,
+            "sk_heal": 11.8,
+            "sk_deploy": 11.8
+          }
+        },
+        {
+          "playerId": "p_003",
+          "name": "AimGod",
+          "age": 22,
+          "region": "SEA",
+          "mechanical": {
+            "aim": 16.9,
+            "recoil": 15,
+            "reflex": 12.6,
+            "movement": 15.8,
+            "cqc": 8.2,
+            "longRange": 18.3
+          },
+          "tactical": {
+            "awareness": 11.1,
+            "positioning": 13.5,
+            "utility": 16.7,
+            "looting": 16.8,
+            "decision": 13.2,
+            "comms": 16
+          },
+          "mental": {
+            "composure": 10.3,
+            "teamwork": 11.5,
+            "determination": 13.6
+          },
+          "hidden": {
+            "consistency": 13.3,
+            "bigMatch": 11.3,
+            "injuryProne": 4.7
+          },
+          "condition": {
+            "stamina": 12.6,
+            "form": 0,
+            "fatigue": 0
+          },
+          "roleProficiency": {
+            "Rusher": 10.8,
+            "SecondRusher": 10.8,
+            "Sniper": 16.8,
+            "Support": 10.8,
+            "Grenadier": 10.8
+          },
+          "skillProficiency": {
+            "sk_dash": 11.8,
+            "sk_shield": 11.8,
+            "sk_scan": 16.3,
+            "sk_heal": 11.8,
+            "sk_deploy": 11.8
+          }
+        },
+        {
+          "playerId": "p_004",
+          "name": "Bion",
+          "age": 18,
+          "region": "SEA",
+          "mechanical": {
+            "aim": 16.1,
+            "recoil": 13.7,
+            "reflex": 11.1,
+            "movement": 12.4,
+            "cqc": 12.6,
+            "longRange": 12.6
+          },
+          "tactical": {
+            "awareness": 13.5,
+            "positioning": 9.8,
+            "utility": 10.9,
+            "looting": 13.6,
+            "decision": 14.6,
+            "comms": 15.6
+          },
+          "mental": {
+            "composure": 17.1,
+            "teamwork": 15.6,
+            "determination": 18.7
+          },
+          "hidden": {
+            "consistency": 13.1,
+            "bigMatch": 11.5,
+            "injuryProne": 3
+          },
+          "condition": {
+            "stamina": 15.6,
+            "form": 0,
+            "fatigue": 0
+          },
+          "roleProficiency": {
+            "Rusher": 10.8,
+            "SecondRusher": 10.8,
+            "Sniper": 10.8,
+            "Support": 16.8,
+            "Grenadier": 10.8
+          },
+          "skillProficiency": {
+            "sk_dash": 11.8,
+            "sk_shield": 11.8,
+            "sk_scan": 11.8,
+            "sk_heal": 16.3,
+            "sk_deploy": 11.8
+          }
+        },
+        {
+          "playerId": "p_005",
+          "name": "AbaaaX",
+          "age": 19,
+          "region": "SEA",
+          "mechanical": {
+            "aim": 13.9,
+            "recoil": 13,
+            "reflex": 12.9,
+            "movement": 13.7,
+            "cqc": 10.5,
+            "longRange": 19
+          },
+          "tactical": {
+            "awareness": 12.9,
+            "positioning": 16.3,
+            "utility": 14.6,
+            "looting": 11.9,
+            "decision": 10.6,
+            "comms": 14.1
+          },
+          "mental": {
+            "composure": 14.8,
+            "teamwork": 13.4,
+            "determination": 11.8
+          },
+          "hidden": {
+            "consistency": 15.3,
+            "bigMatch": 15.2,
+            "injuryProne": 9.1
+          },
+          "condition": {
+            "stamina": 14.5,
+            "form": 0,
+            "fatigue": 0
+          },
+          "roleProficiency": {
+            "Rusher": 10.8,
+            "SecondRusher": 10.8,
+            "Sniper": 10.8,
+            "Support": 10.8,
+            "Grenadier": 16.8
+          },
+          "skillProficiency": {
+            "sk_dash": 11.8,
+            "sk_shield": 11.8,
+            "sk_scan": 11.8,
+            "sk_heal": 11.8,
+            "sk_deploy": 16.3
+          }
+        }
+      ]
+    },
+    {
+      "teamId": "t_buriram",
+      "name": "Buriram United",
+      "region": "SEA",
+      "colorHex": "#003F88",
+      "lineup": {
+        "starters": [
+          {
+            "playerId": "p_006",
+            "role": "Rusher",
+            "active": "sk_dash",
+            "passives": [
+              "sk_p_aim",
+              "sk_p_move",
+              "sk_p_armor"
+            ]
+          },
+          {
+            "playerId": "p_007",
+            "role": "SecondRusher",
+            "active": "sk_shield",
+            "passives": [
+              "sk_p_armor",
+              "sk_p_gloo",
+              "sk_p_heal"
+            ]
+          },
+          {
+            "playerId": "p_008",
+            "role": "Sniper",
+            "active": "sk_scan",
+            "passives": [
+              "sk_p_heal",
+              "sk_p_loot",
+              "sk_p_aim"
+            ]
+          },
+          {
+            "playerId": "p_009",
+            "role": "Support",
+            "active": "sk_heal",
+            "passives": [
+              "sk_p_aim",
+              "sk_p_move",
+              "sk_p_armor"
+            ]
+          }
+        ],
+        "sub": "p_010",
+        "igl": "p_009"
+      },
+      "playbook": {
+        "drop": "Flex",
+        "rotation": "Early",
+        "engage": "Balanced",
+        "endgame": "Building"
+      },
+      "synergy": 75,
+      "players": [
+        {
+          "playerId": "p_006",
+          "name": "Wassana",
+          "age": 25,
+          "region": "SEA",
+          "mechanical": {
+            "aim": 13,
+            "recoil": 15.2,
+            "reflex": 15,
+            "movement": 13.8,
+            "cqc": 13.2,
+            "longRange": 16.6
+          },
+          "tactical": {
+            "awareness": 13.4,
+            "positioning": 11.3,
+            "utility": 14.1,
+            "looting": 16,
+            "decision": 12.9,
+            "comms": 11.5
+          },
+          "mental": {
+            "composure": 12.9,
+            "teamwork": 13.4,
+            "determination": 15.9
+          },
+          "hidden": {
+            "consistency": 17.7,
+            "bigMatch": 13.8,
+            "injuryProne": 7.5
+          },
+          "condition": {
+            "stamina": 15.3,
+            "form": 0,
+            "fatigue": 0
+          },
+          "roleProficiency": {
+            "Rusher": 16.8,
+            "SecondRusher": 10.8,
+            "Sniper": 10.8,
+            "Support": 10.8,
+            "Grenadier": 10.8
+          },
+          "skillProficiency": {
+            "sk_dash": 16.3,
+            "sk_shield": 11.8,
+            "sk_scan": 11.8,
+            "sk_heal": 11.8,
+            "sk_deploy": 11.8
+          }
+        },
+        {
+          "playerId": "p_007",
+          "name": "Moshi",
+          "age": 19,
+          "region": "SEA",
+          "mechanical": {
+            "aim": 11.4,
+            "recoil": 13.2,
+            "reflex": 15.3,
+            "movement": 14.4,
+            "cqc": 17.2,
+            "longRange": 17.1
+          },
+          "tactical": {
+            "awareness": 12.9,
+            "positioning": 10.5,
+            "utility": 18.3,
+            "looting": 11.3,
+            "decision": 12.4,
+            "comms": 12.3
+          },
+          "mental": {
+            "composure": 13.8,
+            "teamwork": 15.3,
+            "determination": 13.4
+          },
+          "hidden": {
+            "consistency": 10.3,
+            "bigMatch": 15.4,
+            "injuryProne": 10.3
+          },
+          "condition": {
+            "stamina": 15.6,
+            "form": 0,
+            "fatigue": 0
+          },
+          "roleProficiency": {
+            "Rusher": 10.8,
+            "SecondRusher": 16.8,
+            "Sniper": 10.8,
+            "Support": 10.8,
+            "Grenadier": 10.8
+          },
+          "skillProficiency": {
+            "sk_dash": 11.8,
+            "sk_shield": 16.3,
+            "sk_scan": 11.8,
+            "sk_heal": 11.8,
+            "sk_deploy": 11.8
+          }
+        },
+        {
+          "playerId": "p_008",
+          "name": "Joena",
+          "age": 25,
+          "region": "SEA",
+          "mechanical": {
+            "aim": 12.2,
+            "recoil": 13.8,
+            "reflex": 16.2,
+            "movement": 12.6,
+            "cqc": 11.3,
+            "longRange": 18.1
+          },
+          "tactical": {
+            "awareness": 13.1,
+            "positioning": 12.6,
+            "utility": 13.8,
+            "looting": 13.8,
+            "decision": 13.1,
+            "comms": 14.9
+          },
+          "mental": {
+            "composure": 15.8,
+            "teamwork": 14.3,
+            "determination": 15.7
+          },
+          "hidden": {
+            "consistency": 15.2,
+            "bigMatch": 13.4,
+            "injuryProne": 5.8
+          },
+          "condition": {
+            "stamina": 14.8,
+            "form": 0,
+            "fatigue": 0
+          },
+          "roleProficiency": {
+            "Rusher": 10.8,
+            "SecondRusher": 10.8,
+            "Sniper": 16.8,
+            "Support": 10.8,
+            "Grenadier": 10.8
+          },
+          "skillProficiency": {
+            "sk_dash": 11.8,
+            "sk_shield": 11.8,
+            "sk_scan": 16.3,
+            "sk_heal": 11.8,
+            "sk_deploy": 11.8
+          }
+        },
+        {
+          "playerId": "p_009",
+          "name": "GETHIGH",
+          "age": 23,
+          "region": "SEA",
+          "mechanical": {
+            "aim": 13.3,
+            "recoil": 17.5,
+            "reflex": 14.5,
+            "movement": 13.1,
+            "cqc": 10.8,
+            "longRange": 14.2
+          },
+          "tactical": {
+            "awareness": 13.5,
+            "positioning": 14.6,
+            "utility": 13.4,
+            "looting": 14.2,
+            "decision": 14.3,
+            "comms": 14.7
+          },
+          "mental": {
+            "composure": 11.8,
+            "teamwork": 14.5,
+            "determination": 17
+          },
+          "hidden": {
+            "consistency": 16.6,
+            "bigMatch": 15.8,
+            "injuryProne": 6.6
+          },
+          "condition": {
+            "stamina": 14.4,
+            "form": 0,
+            "fatigue": 0
+          },
+          "roleProficiency": {
+            "Rusher": 10.8,
+            "SecondRusher": 10.8,
+            "Sniper": 10.8,
+            "Support": 16.8,
+            "Grenadier": 10.8
+          },
+          "skillProficiency": {
+            "sk_dash": 11.8,
+            "sk_shield": 11.8,
+            "sk_scan": 11.8,
+            "sk_heal": 16.3,
+            "sk_deploy": 11.8
+          }
+        },
+        {
+          "playerId": "p_010",
+          "name": "TheCruz",
+          "age": 18,
+          "region": "SEA",
+          "mechanical": {
+            "aim": 12.6,
+            "recoil": 10.8,
+            "reflex": 18,
+            "movement": 11.4,
+            "cqc": 14.4,
+            "longRange": 9.9
+          },
+          "tactical": {
+            "awareness": 14.1,
+            "positioning": 14,
+            "utility": 13.6,
+            "looting": 11.9,
+            "decision": 15.9,
+            "comms": 14.1
+          },
+          "mental": {
+            "composure": 11.2,
+            "teamwork": 13.4,
+            "determination": 13.1
+          },
+          "hidden": {
+            "consistency": 10.3,
+            "bigMatch": 12.4,
+            "injuryProne": 10.4
+          },
+          "condition": {
+            "stamina": 15.1,
+            "form": 0,
+            "fatigue": 0
+          },
+          "roleProficiency": {
+            "Rusher": 10.8,
+            "SecondRusher": 10.8,
+            "Sniper": 10.8,
+            "Support": 10.8,
+            "Grenadier": 16.8
+          },
+          "skillProficiency": {
+            "sk_dash": 11.8,
+            "sk_shield": 11.8,
+            "sk_scan": 11.8,
+            "sk_heal": 11.8,
+            "sk_deploy": 16.3
+          }
+        }
+      ]
+    },
+    {
+      "teamId": "t_fluxo",
+      "name": "Fluxo Esports",
+      "region": "BR",
+      "colorHex": "#7B2CBF",
+      "lineup": {
+        "starters": [
+          {
+            "playerId": "p_011",
+            "role": "Rusher",
+            "active": "sk_dash",
+            "passives": [
+              "sk_p_aim",
+              "sk_p_move",
+              "sk_p_armor"
+            ]
+          },
+          {
+            "playerId": "p_012",
+            "role": "SecondRusher",
+            "active": "sk_shield",
+            "passives": [
+              "sk_p_armor",
+              "sk_p_gloo",
+              "sk_p_heal"
+            ]
+          },
+          {
+            "playerId": "p_013",
+            "role": "Sniper",
+            "active": "sk_scan",
+            "passives": [
+              "sk_p_heal",
+              "sk_p_loot",
+              "sk_p_aim"
+            ]
+          },
+          {
+            "playerId": "p_014",
+            "role": "Support",
+            "active": "sk_heal",
+            "passives": [
+              "sk_p_aim",
+              "sk_p_move",
+              "sk_p_armor"
+            ]
+          }
+        ],
+        "sub": "p_015",
+        "igl": "p_014"
+      },
+      "playbook": {
+        "drop": "Cold",
+        "rotation": "Edge",
+        "engage": "Contest",
+        "endgame": "GlooFort"
+      },
+      "synergy": 81,
+      "players": [
+        {
+          "playerId": "p_011",
+          "name": "Bops",
+          "age": 24,
+          "region": "BR",
+          "mechanical": {
+            "aim": 13,
+            "recoil": 13.5,
+            "reflex": 15.7,
+            "movement": 16.4,
+            "cqc": 11.5,
+            "longRange": 13.8
+          },
+          "tactical": {
+            "awareness": 9.8,
+            "positioning": 14.1,
+            "utility": 15.8,
+            "looting": 11.8,
+            "decision": 14.4,
+            "comms": 15.9
+          },
+          "mental": {
+            "composure": 10.1,
+            "teamwork": 14.6,
+            "determination": 12.3
+          },
+          "hidden": {
+            "consistency": 11.2,
+            "bigMatch": 16.2,
+            "injuryProne": 4.5
+          },
+          "condition": {
+            "stamina": 11.4,
+            "form": 0,
+            "fatigue": 0
+          },
+          "roleProficiency": {
+            "Rusher": 16.8,
+            "SecondRusher": 10.8,
+            "Sniper": 10.8,
+            "Support": 10.8,
+            "Grenadier": 10.8
+          },
+          "skillProficiency": {
+            "sk_dash": 16.3,
+            "sk_shield": 11.8,
+            "sk_scan": 11.8,
+            "sk_heal": 11.8,
+            "sk_deploy": 11.8
+          }
+        },
+        {
+          "playerId": "p_012",
+          "name": "Butazin",
+          "age": 17,
+          "region": "BR",
+          "mechanical": {
+            "aim": 11.3,
+            "recoil": 12.5,
+            "reflex": 13.2,
+            "movement": 12.6,
+            "cqc": 16.2,
+            "longRange": 12.5
+          },
+          "tactical": {
+            "awareness": 13.6,
+            "positioning": 13.4,
+            "utility": 15.4,
+            "looting": 10.6,
+            "decision": 17.7,
+            "comms": 17.1
+          },
+          "mental": {
+            "composure": 9.2,
+            "teamwork": 16.8,
+            "determination": 12.9
+          },
+          "hidden": {
+            "consistency": 14.3,
+            "bigMatch": 12.3,
+            "injuryProne": 6.1
+          },
+          "condition": {
+            "stamina": 14,
+            "form": 0,
+            "fatigue": 0
+          },
+          "roleProficiency": {
+            "Rusher": 10.8,
+            "SecondRusher": 16.8,
+            "Sniper": 10.8,
+            "Support": 10.8,
+            "Grenadier": 10.8
+          },
+          "skillProficiency": {
+            "sk_dash": 11.8,
+            "sk_shield": 16.3,
+            "sk_scan": 11.8,
+            "sk_heal": 11.8,
+            "sk_deploy": 11.8
+          }
+        },
+        {
+          "playerId": "p_013",
+          "name": "Giuh",
+          "age": 25,
+          "region": "BR",
+          "mechanical": {
+            "aim": 12.4,
+            "recoil": 14.3,
+            "reflex": 14.1,
+            "movement": 16.2,
+            "cqc": 14.1,
+            "longRange": 14.3
+          },
+          "tactical": {
+            "awareness": 16,
+            "positioning": 12.8,
+            "utility": 11,
+            "looting": 14.9,
+            "decision": 14.4,
+            "comms": 15.1
+          },
+          "mental": {
+            "composure": 13.6,
+            "teamwork": 13.9,
+            "determination": 15
+          },
+          "hidden": {
+            "consistency": 17.1,
+            "bigMatch": 16.3,
+            "injuryProne": 9.6
+          },
+          "condition": {
+            "stamina": 12.5,
+            "form": 0,
+            "fatigue": 0
+          },
+          "roleProficiency": {
+            "Rusher": 10.8,
+            "SecondRusher": 10.8,
+            "Sniper": 16.8,
+            "Support": 10.8,
+            "Grenadier": 10.8
+          },
+          "skillProficiency": {
+            "sk_dash": 11.8,
+            "sk_shield": 11.8,
+            "sk_scan": 16.3,
+            "sk_heal": 11.8,
+            "sk_deploy": 11.8
+          }
+        },
+        {
+          "playerId": "p_014",
+          "name": "MT7",
+          "age": 24,
+          "region": "BR",
+          "mechanical": {
+            "aim": 12.9,
+            "recoil": 8.2,
+            "reflex": 14.4,
+            "movement": 16.5,
+            "cqc": 11.8,
+            "longRange": 17.9
+          },
+          "tactical": {
+            "awareness": 14.9,
+            "positioning": 9.9,
+            "utility": 17.7,
+            "looting": 17.2,
+            "decision": 17.5,
+            "comms": 16.4
+          },
+          "mental": {
+            "composure": 13.5,
+            "teamwork": 15.2,
+            "determination": 14.6
+          },
+          "hidden": {
+            "consistency": 13.9,
+            "bigMatch": 14.9,
+            "injuryProne": 2.8
+          },
+          "condition": {
+            "stamina": 11.9,
+            "form": 0,
+            "fatigue": 0
+          },
+          "roleProficiency": {
+            "Rusher": 10.8,
+            "SecondRusher": 10.8,
+            "Sniper": 10.8,
+            "Support": 16.8,
+            "Grenadier": 10.8
+          },
+          "skillProficiency": {
+            "sk_dash": 11.8,
+            "sk_shield": 11.8,
+            "sk_scan": 11.8,
+            "sk_heal": 16.3,
+            "sk_deploy": 11.8
+          }
+        },
+        {
+          "playerId": "p_015",
+          "name": "Syaz",
+          "age": 22,
+          "region": "BR",
+          "mechanical": {
+            "aim": 13.8,
+            "recoil": 13.9,
+            "reflex": 12.4,
+            "movement": 13.3,
+            "cqc": 13.6,
+            "longRange": 15.2
+          },
+          "tactical": {
+            "awareness": 14.5,
+            "positioning": 14,
+            "utility": 15.3,
+            "looting": 14.9,
+            "decision": 16.4,
+            "comms": 12.8
+          },
+          "mental": {
+            "composure": 12.4,
+            "teamwork": 15.4,
+            "determination": 11.2
+          },
+          "hidden": {
+            "consistency": 17,
+            "bigMatch": 14.7,
+            "injuryProne": 10.7
+          },
+          "condition": {
+            "stamina": 9.2,
+            "form": 0,
+            "fatigue": 0
+          },
+          "roleProficiency": {
+            "Rusher": 10.8,
+            "SecondRusher": 10.8,
+            "Sniper": 10.8,
+            "Support": 10.8,
+            "Grenadier": 16.8
+          },
+          "skillProficiency": {
+            "sk_dash": 11.8,
+            "sk_shield": 11.8,
+            "sk_scan": 11.8,
+            "sk_heal": 11.8,
+            "sk_deploy": 16.3
+          }
+        }
+      ]
+    },
+    {
+      "teamId": "t_loud",
+      "name": "LOUD GG",
+      "region": "BR",
+      "colorHex": "#00CC66",
+      "lineup": {
+        "starters": [
+          {
+            "playerId": "p_016",
+            "role": "Rusher",
+            "active": "sk_dash",
+            "passives": [
+              "sk_p_aim",
+              "sk_p_move",
+              "sk_p_armor"
+            ]
+          },
+          {
+            "playerId": "p_017",
+            "role": "SecondRusher",
+            "active": "sk_shield",
+            "passives": [
+              "sk_p_armor",
+              "sk_p_gloo",
+              "sk_p_heal"
+            ]
+          },
+          {
+            "playerId": "p_018",
+            "role": "Sniper",
+            "active": "sk_scan",
+            "passives": [
+              "sk_p_heal",
+              "sk_p_loot",
+              "sk_p_aim"
+            ]
+          },
+          {
+            "playerId": "p_019",
+            "role": "Support",
+            "active": "sk_heal",
+            "passives": [
+              "sk_p_aim",
+              "sk_p_move",
+              "sk_p_armor"
+            ]
+          }
+        ],
+        "sub": "p_020",
+        "igl": "p_019"
+      },
+      "playbook": {
+        "drop": "Hot",
+        "rotation": "Edge",
+        "engage": "Balanced",
+        "endgame": "HighGround"
+      },
+      "synergy": 79,
+      "players": [
+        {
+          "playerId": "p_016",
+          "name": "Cauan7",
+          "age": 18,
+          "region": "BR",
+          "mechanical": {
+            "aim": 15.3,
+            "recoil": 15.2,
+            "reflex": 12.1,
+            "movement": 13.8,
+            "cqc": 17.6,
+            "longRange": 12.2
+          },
+          "tactical": {
+            "awareness": 13.6,
+            "positioning": 14,
+            "utility": 15.1,
+            "looting": 9.9,
+            "decision": 13.6,
+            "comms": 12.6
+          },
+          "mental": {
+            "composure": 11.1,
+            "teamwork": 10.3,
+            "determination": 13.3
+          },
+          "hidden": {
+            "consistency": 11.1,
+            "bigMatch": 11.5,
+            "injuryProne": 10.2
+          },
+          "condition": {
+            "stamina": 13,
+            "form": 0,
+            "fatigue": 0
+          },
+          "roleProficiency": {
+            "Rusher": 16.8,
+            "SecondRusher": 10.8,
+            "Sniper": 10.8,
+            "Support": 10.8,
+            "Grenadier": 10.8
+          },
+          "skillProficiency": {
+            "sk_dash": 16.3,
+            "sk_shield": 11.8,
+            "sk_scan": 11.8,
+            "sk_heal": 11.8,
+            "sk_deploy": 11.8
+          }
+        },
+        {
+          "playerId": "p_017",
+          "name": "Lost21",
+          "age": 20,
+          "region": "BR",
+          "mechanical": {
+            "aim": 12.3,
+            "recoil": 13,
+            "reflex": 16.9,
+            "movement": 15.6,
+            "cqc": 15.4,
+            "longRange": 15.6
+          },
+          "tactical": {
+            "awareness": 13.3,
+            "positioning": 14.4,
+            "utility": 17.4,
+            "looting": 15.4,
+            "decision": 11.8,
+            "comms": 13.6
+          },
+          "mental": {
+            "composure": 15.8,
+            "teamwork": 12.5,
+            "determination": 13.5
+          },
+          "hidden": {
+            "consistency": 12.8,
+            "bigMatch": 11.1,
+            "injuryProne": 3.9
+          },
+          "condition": {
+            "stamina": 13.7,
+            "form": 0,
+            "fatigue": 0
+          },
+          "roleProficiency": {
+            "Rusher": 10.8,
+            "SecondRusher": 16.8,
+            "Sniper": 10.8,
+            "Support": 10.8,
+            "Grenadier": 10.8
+          },
+          "skillProficiency": {
+            "sk_dash": 11.8,
+            "sk_shield": 16.3,
+            "sk_scan": 11.8,
+            "sk_heal": 11.8,
+            "sk_deploy": 11.8
+          }
+        },
+        {
+          "playerId": "p_018",
+          "name": "Noda",
+          "age": 18,
+          "region": "BR",
+          "mechanical": {
+            "aim": 11.9,
+            "recoil": 14,
+            "reflex": 9.7,
+            "movement": 15.7,
+            "cqc": 10,
+            "longRange": 14.6
+          },
+          "tactical": {
+            "awareness": 15.3,
+            "positioning": 11.1,
+            "utility": 10.5,
+            "looting": 13.6,
+            "decision": 13.5,
+            "comms": 18.5
+          },
+          "mental": {
+            "composure": 14.8,
+            "teamwork": 10.9,
+            "determination": 11.2
+          },
+          "hidden": {
+            "consistency": 13.8,
+            "bigMatch": 11.9,
+            "injuryProne": 2
+          },
+          "condition": {
+            "stamina": 10.5,
+            "form": 0,
+            "fatigue": 0
+          },
+          "roleProficiency": {
+            "Rusher": 10.8,
+            "SecondRusher": 10.8,
+            "Sniper": 16.8,
+            "Support": 10.8,
+            "Grenadier": 10.8
+          },
+          "skillProficiency": {
+            "sk_dash": 11.8,
+            "sk_shield": 11.8,
+            "sk_scan": 16.3,
+            "sk_heal": 11.8,
+            "sk_deploy": 11.8
+          }
+        },
+        {
+          "playerId": "p_019",
+          "name": "Draxx",
+          "age": 19,
+          "region": "BR",
+          "mechanical": {
+            "aim": 12.8,
+            "recoil": 18.5,
+            "reflex": 16.3,
+            "movement": 14.9,
+            "cqc": 14.7,
+            "longRange": 10.5
+          },
+          "tactical": {
+            "awareness": 19,
+            "positioning": 11.2,
+            "utility": 14,
+            "looting": 13.2,
+            "decision": 15,
+            "comms": 15.6
+          },
+          "mental": {
+            "composure": 14.5,
+            "teamwork": 14.7,
+            "determination": 13.4
+          },
+          "hidden": {
+            "consistency": 17,
+            "bigMatch": 13.8,
+            "injuryProne": 10.2
+          },
+          "condition": {
+            "stamina": 14.3,
+            "form": 0,
+            "fatigue": 0
+          },
+          "roleProficiency": {
+            "Rusher": 10.8,
+            "SecondRusher": 10.8,
+            "Sniper": 10.8,
+            "Support": 16.8,
+            "Grenadier": 10.8
+          },
+          "skillProficiency": {
+            "sk_dash": 11.8,
+            "sk_shield": 11.8,
+            "sk_scan": 11.8,
+            "sk_heal": 16.3,
+            "sk_deploy": 11.8
+          }
+        },
+        {
+          "playerId": "p_020",
+          "name": "Kroonos",
+          "age": 20,
+          "region": "BR",
+          "mechanical": {
+            "aim": 13.1,
+            "recoil": 14.5,
+            "reflex": 10.6,
+            "movement": 13.5,
+            "cqc": 13.2,
+            "longRange": 11.1
+          },
+          "tactical": {
+            "awareness": 10.5,
+            "positioning": 12.1,
+            "utility": 13.9,
+            "looting": 12.5,
+            "decision": 14.3,
+            "comms": 14.8
+          },
+          "mental": {
+            "composure": 16,
+            "teamwork": 11.9,
+            "determination": 12
+          },
+          "hidden": {
+            "consistency": 12.2,
+            "bigMatch": 16.7,
+            "injuryProne": 11.7
+          },
+          "condition": {
+            "stamina": 12.1,
+            "form": 0,
+            "fatigue": 0
+          },
+          "roleProficiency": {
+            "Rusher": 10.8,
+            "SecondRusher": 10.8,
+            "Sniper": 10.8,
+            "Support": 10.8,
+            "Grenadier": 16.8
+          },
+          "skillProficiency": {
+            "sk_dash": 11.8,
+            "sk_shield": 11.8,
+            "sk_scan": 11.8,
+            "sk_heal": 11.8,
+            "sk_deploy": 16.3
+          }
+        }
+      ]
+    },
+    {
+      "teamId": "t_falcons",
+      "name": "Team Falcons",
+      "region": "MEA",
+      "colorHex": "#2EC4B6",
+      "lineup": {
+        "starters": [
+          {
+            "playerId": "p_021",
+            "role": "Rusher",
+            "active": "sk_dash",
+            "passives": [
+              "sk_p_aim",
+              "sk_p_move",
+              "sk_p_armor"
+            ]
+          },
+          {
+            "playerId": "p_022",
+            "role": "SecondRusher",
+            "active": "sk_shield",
+            "passives": [
+              "sk_p_armor",
+              "sk_p_gloo",
+              "sk_p_heal"
+            ]
+          },
+          {
+            "playerId": "p_023",
+            "role": "Sniper",
+            "active": "sk_scan",
+            "passives": [
+              "sk_p_heal",
+              "sk_p_loot",
+              "sk_p_aim"
+            ]
+          },
+          {
+            "playerId": "p_024",
+            "role": "Support",
+            "active": "sk_heal",
+            "passives": [
+              "sk_p_aim",
+              "sk_p_move",
+              "sk_p_armor"
+            ]
+          }
+        ],
+        "sub": "p_025",
+        "igl": "p_024"
+      },
+      "playbook": {
+        "drop": "Flex",
+        "rotation": "Late",
+        "engage": "Contest",
+        "endgame": "Building"
+      },
+      "synergy": 81,
+      "players": [
+        {
+          "playerId": "p_021",
+          "name": "Cobra",
+          "age": 20,
+          "region": "MEA",
+          "mechanical": {
+            "aim": 15.3,
+            "recoil": 11.3,
+            "reflex": 14.7,
+            "movement": 13.5,
+            "cqc": 17.5,
+            "longRange": 19
+          },
+          "tactical": {
+            "awareness": 16,
+            "positioning": 16.7,
+            "utility": 13.1,
+            "looting": 14.5,
+            "decision": 13.6,
+            "comms": 17
+          },
+          "mental": {
+            "composure": 13.6,
+            "teamwork": 15.7,
+            "determination": 11.8
+          },
+          "hidden": {
+            "consistency": 10.1,
+            "bigMatch": 11.4,
+            "injuryProne": 8.1
+          },
+          "condition": {
+            "stamina": 15.8,
+            "form": 0,
+            "fatigue": 0
+          },
+          "roleProficiency": {
+            "Rusher": 16.8,
+            "SecondRusher": 10.8,
+            "Sniper": 10.8,
+            "Support": 10.8,
+            "Grenadier": 10.8
+          },
+          "skillProficiency": {
+            "sk_dash": 16.3,
+            "sk_shield": 11.8,
+            "sk_scan": 11.8,
+            "sk_heal": 11.8,
+            "sk_deploy": 11.8
+          }
+        },
+        {
+          "playerId": "p_022",
+          "name": "Peter",
+          "age": 17,
+          "region": "MEA",
+          "mechanical": {
+            "aim": 12.5,
+            "recoil": 12.5,
+            "reflex": 13.9,
+            "movement": 15.5,
+            "cqc": 13,
+            "longRange": 16.6
+          },
+          "tactical": {
+            "awareness": 11,
+            "positioning": 13.6,
+            "utility": 16,
+            "looting": 12.5,
+            "decision": 10.2,
+            "comms": 14.3
+          },
+          "mental": {
+            "composure": 16.5,
+            "teamwork": 13.5,
+            "determination": 14.8
+          },
+          "hidden": {
+            "consistency": 15.1,
+            "bigMatch": 13.7,
+            "injuryProne": 10.3
+          },
+          "condition": {
+            "stamina": 14.3,
+            "form": 0,
+            "fatigue": 0
+          },
+          "roleProficiency": {
+            "Rusher": 10.8,
+            "SecondRusher": 16.8,
+            "Sniper": 10.8,
+            "Support": 10.8,
+            "Grenadier": 10.8
+          },
+          "skillProficiency": {
+            "sk_dash": 11.8,
+            "sk_shield": 16.3,
+            "sk_scan": 11.8,
+            "sk_heal": 11.8,
+            "sk_deploy": 11.8
+          }
+        },
+        {
+          "playerId": "p_023",
+          "name": "Razor",
+          "age": 19,
+          "region": "MEA",
+          "mechanical": {
+            "aim": 15,
+            "recoil": 13.6,
+            "reflex": 13.6,
+            "movement": 15.9,
+            "cqc": 15.1,
+            "longRange": 15.6
+          },
+          "tactical": {
+            "awareness": 14.4,
+            "positioning": 16.7,
+            "utility": 15.8,
+            "looting": 15.1,
+            "decision": 14.8,
+            "comms": 15.5
+          },
+          "mental": {
+            "composure": 16.1,
+            "teamwork": 16.1,
+            "determination": 15
+          },
+          "hidden": {
+            "consistency": 11.5,
+            "bigMatch": 12.6,
+            "injuryProne": 11.4
+          },
+          "condition": {
+            "stamina": 14.6,
+            "form": 0,
+            "fatigue": 0
+          },
+          "roleProficiency": {
+            "Rusher": 10.8,
+            "SecondRusher": 10.8,
+            "Sniper": 16.8,
+            "Support": 10.8,
+            "Grenadier": 10.8
+          },
+          "skillProficiency": {
+            "sk_dash": 11.8,
+            "sk_shield": 11.8,
+            "sk_scan": 16.3,
+            "sk_heal": 11.8,
+            "sk_deploy": 11.8
+          }
+        },
+        {
+          "playerId": "p_024",
+          "name": "Duties",
+          "age": 20,
+          "region": "MEA",
+          "mechanical": {
+            "aim": 11.3,
+            "recoil": 14.8,
+            "reflex": 13.9,
+            "movement": 10.8,
+            "cqc": 16.1,
+            "longRange": 9.6
+          },
+          "tactical": {
+            "awareness": 14.2,
+            "positioning": 17,
+            "utility": 17.7,
+            "looting": 13.5,
+            "decision": 11.4,
+            "comms": 19
+          },
+          "mental": {
+            "composure": 11.3,
+            "teamwork": 13.5,
+            "determination": 12.6
+          },
+          "hidden": {
+            "consistency": 14.2,
+            "bigMatch": 12.6,
+            "injuryProne": 9.4
+          },
+          "condition": {
+            "stamina": 9.5,
+            "form": 0,
+            "fatigue": 0
+          },
+          "roleProficiency": {
+            "Rusher": 10.8,
+            "SecondRusher": 10.8,
+            "Sniper": 10.8,
+            "Support": 16.8,
+            "Grenadier": 10.8
+          },
+          "skillProficiency": {
+            "sk_dash": 11.8,
+            "sk_shield": 11.8,
+            "sk_scan": 11.8,
+            "sk_heal": 16.3,
+            "sk_deploy": 11.8
+          }
+        },
+        {
+          "playerId": "p_025",
+          "name": "Lega",
+          "age": 25,
+          "region": "MEA",
+          "mechanical": {
+            "aim": 17.6,
+            "recoil": 13.9,
+            "reflex": 13.8,
+            "movement": 16.2,
+            "cqc": 13.2,
+            "longRange": 11.4
+          },
+          "tactical": {
+            "awareness": 16.2,
+            "positioning": 13,
+            "utility": 14.3,
+            "looting": 11.3,
+            "decision": 11.9,
+            "comms": 13.1
+          },
+          "mental": {
+            "composure": 12.4,
+            "teamwork": 14.2,
+            "determination": 17
+          },
+          "hidden": {
+            "consistency": 12.7,
+            "bigMatch": 12.1,
+            "injuryProne": 10.9
+          },
+          "condition": {
+            "stamina": 13.7,
+            "form": 0,
+            "fatigue": 0
+          },
+          "roleProficiency": {
+            "Rusher": 10.8,
+            "SecondRusher": 10.8,
+            "Sniper": 10.8,
+            "Support": 10.8,
+            "Grenadier": 16.8
+          },
+          "skillProficiency": {
+            "sk_dash": 11.8,
+            "sk_shield": 11.8,
+            "sk_scan": 11.8,
+            "sk_heal": 11.8,
+            "sk_deploy": 16.3
+          }
+        }
+      ]
+    },
+    {
+      "teamId": "t_rrq",
+      "name": "RRQ Kazu",
+      "region": "SEA",
+      "colorHex": "#FF9F1C",
+      "lineup": {
+        "starters": [
+          {
+            "playerId": "p_026",
+            "role": "Rusher",
+            "active": "sk_dash",
+            "passives": [
+              "sk_p_aim",
+              "sk_p_move",
+              "sk_p_armor"
+            ]
+          },
+          {
+            "playerId": "p_027",
+            "role": "SecondRusher",
+            "active": "sk_shield",
+            "passives": [
+              "sk_p_armor",
+              "sk_p_gloo",
+              "sk_p_heal"
+            ]
+          },
+          {
+            "playerId": "p_028",
+            "role": "Sniper",
+            "active": "sk_scan",
+            "passives": [
+              "sk_p_heal",
+              "sk_p_loot",
+              "sk_p_aim"
+            ]
+          },
+          {
+            "playerId": "p_029",
+            "role": "Support",
+            "active": "sk_heal",
+            "passives": [
+              "sk_p_aim",
+              "sk_p_move",
+              "sk_p_armor"
+            ]
+          }
+        ],
+        "sub": "p_030",
+        "igl": "p_029"
+      },
+      "playbook": {
+        "drop": "Cold",
+        "rotation": "Late",
+        "engage": "Balanced",
+        "endgame": "GlooFort"
+      },
+      "synergy": 82,
+      "players": [
+        {
+          "playerId": "p_026",
+          "name": "Dutzz",
+          "age": 18,
+          "region": "SEA",
+          "mechanical": {
+            "aim": 15.2,
+            "recoil": 12.5,
+            "reflex": 17.2,
+            "movement": 17.1,
+            "cqc": 13.2,
+            "longRange": 18.8
+          },
+          "tactical": {
+            "awareness": 15.7,
+            "positioning": 13.4,
+            "utility": 12.6,
+            "looting": 14.2,
+            "decision": 14.2,
+            "comms": 16.9
+          },
+          "mental": {
+            "composure": 11.9,
+            "teamwork": 11.4,
+            "determination": 13.7
+          },
+          "hidden": {
+            "consistency": 9.2,
+            "bigMatch": 10.6,
+            "injuryProne": 3.7
+          },
+          "condition": {
+            "stamina": 13.9,
+            "form": 0,
+            "fatigue": 0
+          },
+          "roleProficiency": {
+            "Rusher": 16.8,
+            "SecondRusher": 10.8,
+            "Sniper": 10.8,
+            "Support": 10.8,
+            "Grenadier": 10.8
+          },
+          "skillProficiency": {
+            "sk_dash": 16.3,
+            "sk_shield": 11.8,
+            "sk_scan": 11.8,
+            "sk_heal": 11.8,
+            "sk_deploy": 11.8
+          }
+        },
+        {
+          "playerId": "p_027",
+          "name": "Maal",
+          "age": 23,
+          "region": "SEA",
+          "mechanical": {
+            "aim": 10.9,
+            "recoil": 12.5,
+            "reflex": 9.5,
+            "movement": 15.8,
+            "cqc": 16.1,
+            "longRange": 13
+          },
+          "tactical": {
+            "awareness": 14.2,
+            "positioning": 13.1,
+            "utility": 7.1,
+            "looting": 14.1,
+            "decision": 13.3,
+            "comms": 12.9
+          },
+          "mental": {
+            "composure": 10.9,
+            "teamwork": 15.9,
+            "determination": 15
+          },
+          "hidden": {
+            "consistency": 11.9,
+            "bigMatch": 12.4,
+            "injuryProne": 8.3
+          },
+          "condition": {
+            "stamina": 11.7,
+            "form": 0,
+            "fatigue": 0
+          },
+          "roleProficiency": {
+            "Rusher": 10.8,
+            "SecondRusher": 16.8,
+            "Sniper": 10.8,
+            "Support": 10.8,
+            "Grenadier": 10.8
+          },
+          "skillProficiency": {
+            "sk_dash": 11.8,
+            "sk_shield": 16.3,
+            "sk_scan": 11.8,
+            "sk_heal": 11.8,
+            "sk_deploy": 11.8
+          }
+        },
+        {
+          "playerId": "p_028",
+          "name": "wings",
+          "age": 20,
+          "region": "SEA",
+          "mechanical": {
+            "aim": 13.9,
+            "recoil": 9.6,
+            "reflex": 13.8,
+            "movement": 17.3,
+            "cqc": 14.5,
+            "longRange": 16.9
+          },
+          "tactical": {
+            "awareness": 14.6,
+            "positioning": 13.3,
+            "utility": 14,
+            "looting": 11.4,
+            "decision": 16.5,
+            "comms": 14
+          },
+          "mental": {
+            "composure": 10.4,
+            "teamwork": 15.3,
+            "determination": 13.1
+          },
+          "hidden": {
+            "consistency": 10.6,
+            "bigMatch": 16.5,
+            "injuryProne": 10.8
+          },
+          "condition": {
+            "stamina": 11.8,
+            "form": 0,
+            "fatigue": 0
+          },
+          "roleProficiency": {
+            "Rusher": 10.8,
+            "SecondRusher": 10.8,
+            "Sniper": 16.8,
+            "Support": 10.8,
+            "Grenadier": 10.8
+          },
+          "skillProficiency": {
+            "sk_dash": 11.8,
+            "sk_shield": 11.8,
+            "sk_scan": 16.3,
+            "sk_heal": 11.8,
+            "sk_deploy": 11.8
+          }
+        },
+        {
+          "playerId": "p_029",
+          "name": "Garfield",
+          "age": 22,
+          "region": "SEA",
+          "mechanical": {
+            "aim": 15.2,
+            "recoil": 13.7,
+            "reflex": 13.4,
+            "movement": 11.4,
+            "cqc": 13.6,
+            "longRange": 12.1
+          },
+          "tactical": {
+            "awareness": 13,
+            "positioning": 11,
+            "utility": 12.9,
+            "looting": 17.7,
+            "decision": 14.9,
+            "comms": 13.7
+          },
+          "mental": {
+            "composure": 15.5,
+            "teamwork": 16,
+            "determination": 12.4
+          },
+          "hidden": {
+            "consistency": 17,
+            "bigMatch": 15.3,
+            "injuryProne": 2.3
+          },
+          "condition": {
+            "stamina": 14.6,
+            "form": 0,
+            "fatigue": 0
+          },
+          "roleProficiency": {
+            "Rusher": 10.8,
+            "SecondRusher": 10.8,
+            "Sniper": 10.8,
+            "Support": 16.8,
+            "Grenadier": 10.8
+          },
+          "skillProficiency": {
+            "sk_dash": 11.8,
+            "sk_shield": 11.8,
+            "sk_scan": 11.8,
+            "sk_heal": 16.3,
+            "sk_deploy": 11.8
+          }
+        },
+        {
+          "playerId": "p_030",
+          "name": "Jars",
+          "age": 25,
+          "region": "SEA",
+          "mechanical": {
+            "aim": 12.7,
+            "recoil": 16.7,
+            "reflex": 12.4,
+            "movement": 13,
+            "cqc": 12.5,
+            "longRange": 11.4
+          },
+          "tactical": {
+            "awareness": 13.6,
+            "positioning": 14.7,
+            "utility": 16.7,
+            "looting": 12.4,
+            "decision": 15.4,
+            "comms": 13.8
+          },
+          "mental": {
+            "composure": 17.8,
+            "teamwork": 14,
+            "determination": 12.6
+          },
+          "hidden": {
+            "consistency": 17.1,
+            "bigMatch": 12.2,
+            "injuryProne": 6.1
+          },
+          "condition": {
+            "stamina": 13.2,
+            "form": 0,
+            "fatigue": 0
+          },
+          "roleProficiency": {
+            "Rusher": 10.8,
+            "SecondRusher": 10.8,
+            "Sniper": 10.8,
+            "Support": 10.8,
+            "Grenadier": 16.8
+          },
+          "skillProficiency": {
+            "sk_dash": 11.8,
+            "sk_shield": 11.8,
+            "sk_scan": 11.8,
+            "sk_heal": 11.8,
+            "sk_deploy": 16.3
+          }
+        }
+      ]
+    },
+    {
+      "teamId": "t_onic",
+      "name": "ONIC Olympus",
+      "region": "SEA",
+      "colorHex": "#F7B801",
+      "lineup": {
+        "starters": [
+          {
+            "playerId": "p_031",
+            "role": "Rusher",
+            "active": "sk_dash",
+            "passives": [
+              "sk_p_aim",
+              "sk_p_move",
+              "sk_p_armor"
+            ]
+          },
+          {
+            "playerId": "p_032",
+            "role": "SecondRusher",
+            "active": "sk_shield",
+            "passives": [
+              "sk_p_armor",
+              "sk_p_gloo",
+              "sk_p_heal"
+            ]
+          },
+          {
+            "playerId": "p_033",
+            "role": "Sniper",
+            "active": "sk_scan",
+            "passives": [
+              "sk_p_heal",
+              "sk_p_loot",
+              "sk_p_aim"
+            ]
+          },
+          {
+            "playerId": "p_034",
+            "role": "Support",
+            "active": "sk_heal",
+            "passives": [
+              "sk_p_aim",
+              "sk_p_move",
+              "sk_p_armor"
+            ]
+          }
+        ],
+        "sub": "p_035",
+        "igl": "p_034"
+      },
+      "playbook": {
+        "drop": "Hot",
+        "rotation": "Early",
+        "engage": "Contest",
+        "endgame": "HighGround"
+      },
+      "synergy": 67,
+      "players": [
+        {
+          "playerId": "p_031",
+          "name": "Pudin",
+          "age": 23,
+          "region": "SEA",
+          "mechanical": {
+            "aim": 13.9,
+            "recoil": 8.7,
+            "reflex": 11.7,
+            "movement": 11.3,
+            "cqc": 13.2,
+            "longRange": 9.5
+          },
+          "tactical": {
+            "awareness": 8.3,
+            "positioning": 9,
+            "utility": 13.1,
+            "looting": 8.1,
+            "decision": 9.5,
+            "comms": 12.5
+          },
+          "mental": {
+            "composure": 10.2,
+            "teamwork": 10.3,
+            "determination": 11.3
+          },
+          "hidden": {
+            "consistency": 10.8,
+            "bigMatch": 11,
+            "injuryProne": 6.6
+          },
+          "condition": {
+            "stamina": 12.6,
+            "form": 0,
+            "fatigue": 0
+          },
+          "roleProficiency": {
+            "Rusher": 14,
+            "SecondRusher": 8,
+            "Sniper": 8,
+            "Support": 8,
+            "Grenadier": 8
+          },
+          "skillProficiency": {
+            "sk_dash": 13.5,
+            "sk_shield": 9,
+            "sk_scan": 9,
+            "sk_heal": 9,
+            "sk_deploy": 9
+          }
+        },
+        {
+          "playerId": "p_032",
+          "name": "Tay",
+          "age": 19,
+          "region": "SEA",
+          "mechanical": {
+            "aim": 5.3,
+            "recoil": 4.8,
+            "reflex": 9.8,
+            "movement": 10,
+            "cqc": 11.8,
+            "longRange": 9.4
+          },
+          "tactical": {
+            "awareness": 12.9,
+            "positioning": 10.3,
+            "utility": 11.7,
+            "looting": 8.9,
+            "decision": 10.5,
+            "comms": 12.5
+          },
+          "mental": {
+            "composure": 10.6,
+            "teamwork": 13.7,
+            "determination": 10.2
+          },
+          "hidden": {
+            "consistency": 11.5,
+            "bigMatch": 11.2,
+            "injuryProne": 2.6
+          },
+          "condition": {
+            "stamina": 9,
+            "form": 0,
+            "fatigue": 0
+          },
+          "roleProficiency": {
+            "Rusher": 8,
+            "SecondRusher": 14,
+            "Sniper": 8,
+            "Support": 8,
+            "Grenadier": 8
+          },
+          "skillProficiency": {
+            "sk_dash": 9,
+            "sk_shield": 13.5,
+            "sk_scan": 9,
+            "sk_heal": 9,
+            "sk_deploy": 9
+          }
+        },
+        {
+          "playerId": "p_033",
+          "name": "JapaBKR",
+          "age": 21,
+          "region": "SEA",
+          "mechanical": {
+            "aim": 12.5,
+            "recoil": 12.3,
+            "reflex": 10.8,
+            "movement": 14.4,
+            "cqc": 13.2,
+            "longRange": 11.1
+          },
+          "tactical": {
+            "awareness": 10.4,
+            "positioning": 9.1,
+            "utility": 10.3,
+            "looting": 9,
+            "decision": 13.4,
+            "comms": 11.7
+          },
+          "mental": {
+            "composure": 12.7,
+            "teamwork": 11.1,
+            "determination": 11.3
+          },
+          "hidden": {
+            "consistency": 13.1,
+            "bigMatch": 12.9,
+            "injuryProne": 3.2
+          },
+          "condition": {
+            "stamina": 14.2,
+            "form": 0,
+            "fatigue": 0
+          },
+          "roleProficiency": {
+            "Rusher": 8,
+            "SecondRusher": 8,
+            "Sniper": 14,
+            "Support": 8,
+            "Grenadier": 8
+          },
+          "skillProficiency": {
+            "sk_dash": 9,
+            "sk_shield": 9,
+            "sk_scan": 13.5,
+            "sk_heal": 9,
+            "sk_deploy": 9
+          }
+        },
+        {
+          "playerId": "p_034",
+          "name": "VitinXP",
+          "age": 17,
+          "region": "SEA",
+          "mechanical": {
+            "aim": 7.2,
+            "recoil": 13.8,
+            "reflex": 12.8,
+            "movement": 8.7,
+            "cqc": 13.4,
+            "longRange": 11.9
+          },
+          "tactical": {
+            "awareness": 12.8,
+            "positioning": 10,
+            "utility": 12.7,
+            "looting": 12.5,
+            "decision": 14.3,
+            "comms": 12.1
+          },
+          "mental": {
+            "composure": 7.3,
+            "teamwork": 12.4,
+            "determination": 12.8
+          },
+          "hidden": {
+            "consistency": 9.6,
+            "bigMatch": 9.5,
+            "injuryProne": 2
+          },
+          "condition": {
+            "stamina": 10.3,
+            "form": 0,
+            "fatigue": 0
+          },
+          "roleProficiency": {
+            "Rusher": 8,
+            "SecondRusher": 8,
+            "Sniper": 8,
+            "Support": 14,
+            "Grenadier": 8
+          },
+          "skillProficiency": {
+            "sk_dash": 9,
+            "sk_shield": 9,
+            "sk_scan": 9,
+            "sk_heal": 13.5,
+            "sk_deploy": 9
+          }
+        },
+        {
+          "playerId": "p_035",
+          "name": "Nando9",
+          "age": 17,
+          "region": "SEA",
+          "mechanical": {
+            "aim": 11.3,
+            "recoil": 7.7,
+            "reflex": 10.6,
+            "movement": 12.1,
+            "cqc": 11.2,
+            "longRange": 12.2
+          },
+          "tactical": {
+            "awareness": 12.6,
+            "positioning": 12.9,
+            "utility": 16.5,
+            "looting": 9.4,
+            "decision": 12.5,
+            "comms": 14.7
+          },
+          "mental": {
+            "composure": 12,
+            "teamwork": 13.6,
+            "determination": 11.4
+          },
+          "hidden": {
+            "consistency": 14.4,
+            "bigMatch": 11.7,
+            "injuryProne": 5.2
+          },
+          "condition": {
+            "stamina": 11,
+            "form": 0,
+            "fatigue": 0
+          },
+          "roleProficiency": {
+            "Rusher": 8,
+            "SecondRusher": 8,
+            "Sniper": 8,
+            "Support": 8,
+            "Grenadier": 14
+          },
+          "skillProficiency": {
+            "sk_dash": 9,
+            "sk_shield": 9,
+            "sk_scan": 9,
+            "sk_heal": 9,
+            "sk_deploy": 13.5
+          }
+        }
+      ]
+    },
+    {
+      "teamId": "t_cggg",
+      "name": "CGGG Thailand",
+      "region": "SEA",
+      "colorHex": "#E71D36",
+      "lineup": {
+        "starters": [
+          {
+            "playerId": "p_036",
+            "role": "Rusher",
+            "active": "sk_dash",
+            "passives": [
+              "sk_p_aim",
+              "sk_p_move",
+              "sk_p_armor"
+            ]
+          },
+          {
+            "playerId": "p_037",
+            "role": "SecondRusher",
+            "active": "sk_shield",
+            "passives": [
+              "sk_p_armor",
+              "sk_p_gloo",
+              "sk_p_heal"
+            ]
+          },
+          {
+            "playerId": "p_038",
+            "role": "Sniper",
+            "active": "sk_scan",
+            "passives": [
+              "sk_p_heal",
+              "sk_p_loot",
+              "sk_p_aim"
+            ]
+          },
+          {
+            "playerId": "p_039",
+            "role": "Support",
+            "active": "sk_heal",
+            "passives": [
+              "sk_p_aim",
+              "sk_p_move",
+              "sk_p_armor"
+            ]
+          }
+        ],
+        "sub": "p_040",
+        "igl": "p_039"
+      },
+      "playbook": {
+        "drop": "Flex",
+        "rotation": "Early",
+        "engage": "Balanced",
+        "endgame": "Building"
+      },
+      "synergy": 67,
+      "players": [
+        {
+          "playerId": "p_036",
+          "name": "Ousado",
+          "age": 23,
+          "region": "SEA",
+          "mechanical": {
+            "aim": 11.6,
+            "recoil": 10.7,
+            "reflex": 11.9,
+            "movement": 10.7,
+            "cqc": 9.5,
+            "longRange": 10.7
+          },
+          "tactical": {
+            "awareness": 10.5,
+            "positioning": 9.4,
+            "utility": 15.5,
+            "looting": 11.8,
+            "decision": 12.1,
+            "comms": 11.5
+          },
+          "mental": {
+            "composure": 10.9,
+            "teamwork": 8.3,
+            "determination": 10.9
+          },
+          "hidden": {
+            "consistency": 11.5,
+            "bigMatch": 11.9,
+            "injuryProne": 9
+          },
+          "condition": {
+            "stamina": 8.8,
+            "form": 0,
+            "fatigue": 0
+          },
+          "roleProficiency": {
+            "Rusher": 14,
+            "SecondRusher": 8,
+            "Sniper": 8,
+            "Support": 8,
+            "Grenadier": 8
+          },
+          "skillProficiency": {
+            "sk_dash": 13.5,
+            "sk_shield": 9,
+            "sk_scan": 9,
+            "sk_heal": 9,
+            "sk_deploy": 9
+          }
+        },
+        {
+          "playerId": "p_037",
+          "name": "Razure",
+          "age": 20,
+          "region": "SEA",
+          "mechanical": {
+            "aim": 10.2,
+            "recoil": 10.4,
+            "reflex": 10.6,
+            "movement": 11.4,
+            "cqc": 11.1,
+            "longRange": 5.8
+          },
+          "tactical": {
+            "awareness": 10.7,
+            "positioning": 12.9,
+            "utility": 9.3,
+            "looting": 11,
+            "decision": 11.9,
+            "comms": 11.7
+          },
+          "mental": {
+            "composure": 10.3,
+            "teamwork": 12.9,
+            "determination": 10.2
+          },
+          "hidden": {
+            "consistency": 11.7,
+            "bigMatch": 9.7,
+            "injuryProne": 11.2
+          },
+          "condition": {
+            "stamina": 9.6,
+            "form": 0,
+            "fatigue": 0
+          },
+          "roleProficiency": {
+            "Rusher": 8,
+            "SecondRusher": 14,
+            "Sniper": 8,
+            "Support": 8,
+            "Grenadier": 8
+          },
+          "skillProficiency": {
+            "sk_dash": 9,
+            "sk_shield": 13.5,
+            "sk_scan": 9,
+            "sk_heal": 9,
+            "sk_deploy": 9
+          }
+        },
+        {
+          "playerId": "p_038",
+          "name": "Zen",
+          "age": 17,
+          "region": "SEA",
+          "mechanical": {
+            "aim": 10.4,
+            "recoil": 13.5,
+            "reflex": 10.4,
+            "movement": 14.7,
+            "cqc": 9.2,
+            "longRange": 13
+          },
+          "tactical": {
+            "awareness": 13.5,
+            "positioning": 16.1,
+            "utility": 7.3,
+            "looting": 10.9,
+            "decision": 10.4,
+            "comms": 9.5
+          },
+          "mental": {
+            "composure": 7.8,
+            "teamwork": 9.5,
+            "determination": 9.9
+          },
+          "hidden": {
+            "consistency": 10.8,
+            "bigMatch": 12.2,
+            "injuryProne": 6.7
+          },
+          "condition": {
+            "stamina": 9,
+            "form": 0,
+            "fatigue": 0
+          },
+          "roleProficiency": {
+            "Rusher": 8,
+            "SecondRusher": 8,
+            "Sniper": 14,
+            "Support": 8,
+            "Grenadier": 8
+          },
+          "skillProficiency": {
+            "sk_dash": 9,
+            "sk_shield": 9,
+            "sk_scan": 13.5,
+            "sk_heal": 9,
+            "sk_deploy": 9
+          }
+        },
+        {
+          "playerId": "p_039",
+          "name": "Kraken",
+          "age": 19,
+          "region": "SEA",
+          "mechanical": {
+            "aim": 9.2,
+            "recoil": 13.4,
+            "reflex": 10.9,
+            "movement": 14.9,
+            "cqc": 12.1,
+            "longRange": 9.2
+          },
+          "tactical": {
+            "awareness": 14.7,
+            "positioning": 8.8,
+            "utility": 13.1,
+            "looting": 12,
+            "decision": 10.6,
+            "comms": 12.5
+          },
+          "mental": {
+            "composure": 10.6,
+            "teamwork": 14.2,
+            "determination": 9.5
+          },
+          "hidden": {
+            "consistency": 12.2,
+            "bigMatch": 8.9,
+            "injuryProne": 6.7
+          },
+          "condition": {
+            "stamina": 12.1,
+            "form": 0,
+            "fatigue": 0
+          },
+          "roleProficiency": {
+            "Rusher": 8,
+            "SecondRusher": 8,
+            "Sniper": 8,
+            "Support": 14,
+            "Grenadier": 8
+          },
+          "skillProficiency": {
+            "sk_dash": 9,
+            "sk_shield": 9,
+            "sk_scan": 9,
+            "sk_heal": 13.5,
+            "sk_deploy": 9
+          }
+        },
+        {
+          "playerId": "p_040",
+          "name": "Zack",
+          "age": 21,
+          "region": "SEA",
+          "mechanical": {
+            "aim": 13.7,
+            "recoil": 11.5,
+            "reflex": 11.5,
+            "movement": 9.9,
+            "cqc": 12,
+            "longRange": 13
+          },
+          "tactical": {
+            "awareness": 11.5,
+            "positioning": 9.3,
+            "utility": 12.9,
+            "looting": 13.9,
+            "decision": 8.9,
+            "comms": 10.5
+          },
+          "mental": {
+            "composure": 11.2,
+            "teamwork": 12.7,
+            "determination": 9.5
+          },
+          "hidden": {
+            "consistency": 11.3,
+            "bigMatch": 12.4,
+            "injuryProne": 9.4
+          },
+          "condition": {
+            "stamina": 11.4,
+            "form": 0,
+            "fatigue": 0
+          },
+          "roleProficiency": {
+            "Rusher": 8,
+            "SecondRusher": 8,
+            "Sniper": 8,
+            "Support": 8,
+            "Grenadier": 14
+          },
+          "skillProficiency": {
+            "sk_dash": 9,
+            "sk_shield": 9,
+            "sk_scan": 9,
+            "sk_heal": 9,
+            "sk_deploy": 13.5
+          }
+        }
+      ]
+    },
+    {
+      "teamId": "t_pain",
+      "name": "paiN Gaming",
+      "region": "BR",
+      "colorHex": "#D90429",
+      "lineup": {
+        "starters": [
+          {
+            "playerId": "p_041",
+            "role": "Rusher",
+            "active": "sk_dash",
+            "passives": [
+              "sk_p_aim",
+              "sk_p_move",
+              "sk_p_armor"
+            ]
+          },
+          {
+            "playerId": "p_042",
+            "role": "SecondRusher",
+            "active": "sk_shield",
+            "passives": [
+              "sk_p_armor",
+              "sk_p_gloo",
+              "sk_p_heal"
+            ]
+          },
+          {
+            "playerId": "p_043",
+            "role": "Sniper",
+            "active": "sk_scan",
+            "passives": [
+              "sk_p_heal",
+              "sk_p_loot",
+              "sk_p_aim"
+            ]
+          },
+          {
+            "playerId": "p_044",
+            "role": "Support",
+            "active": "sk_heal",
+            "passives": [
+              "sk_p_aim",
+              "sk_p_move",
+              "sk_p_armor"
+            ]
+          }
+        ],
+        "sub": "p_045",
+        "igl": "p_044"
+      },
+      "playbook": {
+        "drop": "Cold",
+        "rotation": "Edge",
+        "engage": "Avoid",
+        "endgame": "GlooFort"
+      },
+      "synergy": 65,
+      "players": [
+        {
+          "playerId": "p_041",
+          "name": "Alaan",
+          "age": 20,
+          "region": "BR",
+          "mechanical": {
+            "aim": 13.4,
+            "recoil": 10.1,
+            "reflex": 13.5,
+            "movement": 11.4,
+            "cqc": 14.6,
+            "longRange": 13.1
+          },
+          "tactical": {
+            "awareness": 11.4,
+            "positioning": 9.5,
+            "utility": 9.1,
+            "looting": 11.3,
+            "decision": 11.7,
+            "comms": 8.3
+          },
+          "mental": {
+            "composure": 9,
+            "teamwork": 8.5,
+            "determination": 12.2
+          },
+          "hidden": {
+            "consistency": 9.8,
+            "bigMatch": 8.2,
+            "injuryProne": 8.9
+          },
+          "condition": {
+            "stamina": 13,
+            "form": 0,
+            "fatigue": 0
+          },
+          "roleProficiency": {
+            "Rusher": 14,
+            "SecondRusher": 8,
+            "Sniper": 8,
+            "Support": 8,
+            "Grenadier": 8
+          },
+          "skillProficiency": {
+            "sk_dash": 13.5,
+            "sk_shield": 9,
+            "sk_scan": 9,
+            "sk_heal": 9,
+            "sk_deploy": 9
+          }
+        },
+        {
+          "playerId": "p_042",
+          "name": "Beowulf",
+          "age": 21,
+          "region": "BR",
+          "mechanical": {
+            "aim": 11.8,
+            "recoil": 8.3,
+            "reflex": 14.4,
+            "movement": 10.7,
+            "cqc": 12.5,
+            "longRange": 11.7
+          },
+          "tactical": {
+            "awareness": 15,
+            "positioning": 12.3,
+            "utility": 10.5,
+            "looting": 14.6,
+            "decision": 11.8,
+            "comms": 10.2
+          },
+          "mental": {
+            "composure": 10.8,
+            "teamwork": 13.3,
+            "determination": 11.9
+          },
+          "hidden": {
+            "consistency": 9.9,
+            "bigMatch": 9.5,
+            "injuryProne": 7.6
+          },
+          "condition": {
+            "stamina": 13.2,
+            "form": 0,
+            "fatigue": 0
+          },
+          "roleProficiency": {
+            "Rusher": 8,
+            "SecondRusher": 14,
+            "Sniper": 8,
+            "Support": 8,
+            "Grenadier": 8
+          },
+          "skillProficiency": {
+            "sk_dash": 9,
+            "sk_shield": 13.5,
+            "sk_scan": 9,
+            "sk_heal": 9,
+            "sk_deploy": 9
+          }
+        },
+        {
+          "playerId": "p_043",
+          "name": "Hector",
+          "age": 18,
+          "region": "BR",
+          "mechanical": {
+            "aim": 10.7,
+            "recoil": 13.8,
+            "reflex": 10.3,
+            "movement": 11.8,
+            "cqc": 12.4,
+            "longRange": 15.2
+          },
+          "tactical": {
+            "awareness": 10.5,
+            "positioning": 13.2,
+            "utility": 10,
+            "looting": 13.2,
+            "decision": 12.6,
+            "comms": 8.9
+          },
+          "mental": {
+            "composure": 9.2,
+            "teamwork": 13.8,
+            "determination": 12.7
+          },
+          "hidden": {
+            "consistency": 12,
+            "bigMatch": 6,
+            "injuryProne": 11.3
+          },
+          "condition": {
+            "stamina": 8,
+            "form": 0,
+            "fatigue": 0
+          },
+          "roleProficiency": {
+            "Rusher": 8,
+            "SecondRusher": 8,
+            "Sniper": 14,
+            "Support": 8,
+            "Grenadier": 8
+          },
+          "skillProficiency": {
+            "sk_dash": 9,
+            "sk_shield": 9,
+            "sk_scan": 13.5,
+            "sk_heal": 9,
+            "sk_deploy": 9
+          }
+        },
+        {
+          "playerId": "p_044",
+          "name": "R7",
+          "age": 22,
+          "region": "BR",
+          "mechanical": {
+            "aim": 8.9,
+            "recoil": 10.8,
+            "reflex": 14.5,
+            "movement": 8.9,
+            "cqc": 5.6,
+            "longRange": 9.9
+          },
+          "tactical": {
+            "awareness": 8,
+            "positioning": 10.9,
+            "utility": 13.7,
+            "looting": 8.2,
+            "decision": 7.5,
+            "comms": 12.1
+          },
+          "mental": {
+            "composure": 10.2,
+            "teamwork": 15.4,
+            "determination": 11.4
+          },
+          "hidden": {
+            "consistency": 10.7,
+            "bigMatch": 9.2,
+            "injuryProne": 5.6
+          },
+          "condition": {
+            "stamina": 11.6,
+            "form": 0,
+            "fatigue": 0
+          },
+          "roleProficiency": {
+            "Rusher": 8,
+            "SecondRusher": 8,
+            "Sniper": 8,
+            "Support": 14,
+            "Grenadier": 8
+          },
+          "skillProficiency": {
+            "sk_dash": 9,
+            "sk_shield": 9,
+            "sk_scan": 9,
+            "sk_heal": 13.5,
+            "sk_deploy": 9
+          }
+        },
+        {
+          "playerId": "p_045",
+          "name": "Viper",
+          "age": 24,
+          "region": "BR",
+          "mechanical": {
+            "aim": 9,
+            "recoil": 9.8,
+            "reflex": 8.5,
+            "movement": 10.4,
+            "cqc": 7.8,
+            "longRange": 12.7
+          },
+          "tactical": {
+            "awareness": 7.4,
+            "positioning": 14,
+            "utility": 14.4,
+            "looting": 11,
+            "decision": 8.8,
+            "comms": 10.3
+          },
+          "mental": {
+            "composure": 10.6,
+            "teamwork": 13.2,
+            "determination": 11.5
+          },
+          "hidden": {
+            "consistency": 9.1,
+            "bigMatch": 8.2,
+            "injuryProne": 6.1
+          },
+          "condition": {
+            "stamina": 10,
+            "form": 0,
+            "fatigue": 0
+          },
+          "roleProficiency": {
+            "Rusher": 8,
+            "SecondRusher": 8,
+            "Sniper": 8,
+            "Support": 8,
+            "Grenadier": 14
+          },
+          "skillProficiency": {
+            "sk_dash": 9,
+            "sk_shield": 9,
+            "sk_scan": 9,
+            "sk_heal": 9,
+            "sk_deploy": 13.5
+          }
+        }
+      ]
+    },
+    {
+      "teamId": "t_corinthians",
+      "name": "Corinthians FF",
+      "region": "BR",
+      "colorHex": "#8D99AE",
+      "lineup": {
+        "starters": [
+          {
+            "playerId": "p_046",
+            "role": "Rusher",
+            "active": "sk_dash",
+            "passives": [
+              "sk_p_aim",
+              "sk_p_move",
+              "sk_p_armor"
+            ]
+          },
+          {
+            "playerId": "p_047",
+            "role": "SecondRusher",
+            "active": "sk_shield",
+            "passives": [
+              "sk_p_armor",
+              "sk_p_gloo",
+              "sk_p_heal"
+            ]
+          },
+          {
+            "playerId": "p_048",
+            "role": "Sniper",
+            "active": "sk_scan",
+            "passives": [
+              "sk_p_heal",
+              "sk_p_loot",
+              "sk_p_aim"
+            ]
+          },
+          {
+            "playerId": "p_049",
+            "role": "Support",
+            "active": "sk_heal",
+            "passives": [
+              "sk_p_aim",
+              "sk_p_move",
+              "sk_p_armor"
+            ]
+          }
+        ],
+        "sub": "p_050",
+        "igl": "p_049"
+      },
+      "playbook": {
+        "drop": "Hot",
+        "rotation": "Edge",
+        "engage": "Contest",
+        "endgame": "HighGround"
+      },
+      "synergy": 65,
+      "players": [
+        {
+          "playerId": "p_046",
+          "name": "Kira",
+          "age": 20,
+          "region": "BR",
+          "mechanical": {
+            "aim": 9.6,
+            "recoil": 10.9,
+            "reflex": 12.9,
+            "movement": 11.5,
+            "cqc": 13.3,
+            "longRange": 11.8
+          },
+          "tactical": {
+            "awareness": 10.4,
+            "positioning": 16,
+            "utility": 8.1,
+            "looting": 12.8,
+            "decision": 12.9,
+            "comms": 9.8
+          },
+          "mental": {
+            "composure": 12.6,
+            "teamwork": 12.2,
+            "determination": 12.8
+          },
+          "hidden": {
+            "consistency": 10.7,
+            "bigMatch": 10.5,
+            "injuryProne": 11.3
+          },
+          "condition": {
+            "stamina": 10.4,
+            "form": 0,
+            "fatigue": 0
+          },
+          "roleProficiency": {
+            "Rusher": 14,
+            "SecondRusher": 8,
+            "Sniper": 8,
+            "Support": 8,
+            "Grenadier": 8
+          },
+          "skillProficiency": {
+            "sk_dash": 13.5,
+            "sk_shield": 9,
+            "sk_scan": 9,
+            "sk_heal": 9,
+            "sk_deploy": 9
+          }
+        },
+        {
+          "playerId": "p_047",
+          "name": "Shadow",
+          "age": 20,
+          "region": "BR",
+          "mechanical": {
+            "aim": 9.9,
+            "recoil": 12.7,
+            "reflex": 13.3,
+            "movement": 10.7,
+            "cqc": 11.7,
+            "longRange": 7.8
+          },
+          "tactical": {
+            "awareness": 15.6,
+            "positioning": 7.1,
+            "utility": 8.7,
+            "looting": 11.4,
+            "decision": 10.1,
+            "comms": 9.1
+          },
+          "mental": {
+            "composure": 12.1,
+            "teamwork": 14.5,
+            "determination": 10.7
+          },
+          "hidden": {
+            "consistency": 10.3,
+            "bigMatch": 11.2,
+            "injuryProne": 3.7
+          },
+          "condition": {
+            "stamina": 13.7,
+            "form": 0,
+            "fatigue": 0
+          },
+          "roleProficiency": {
+            "Rusher": 8,
+            "SecondRusher": 14,
+            "Sniper": 8,
+            "Support": 8,
+            "Grenadier": 8
+          },
+          "skillProficiency": {
+            "sk_dash": 9,
+            "sk_shield": 13.5,
+            "sk_scan": 9,
+            "sk_heal": 9,
+            "sk_deploy": 9
+          }
+        },
+        {
+          "playerId": "p_048",
+          "name": "Zero",
+          "age": 22,
+          "region": "BR",
+          "mechanical": {
+            "aim": 8.4,
+            "recoil": 8,
+            "reflex": 10.4,
+            "movement": 10.8,
+            "cqc": 7.4,
+            "longRange": 11.1
+          },
+          "tactical": {
+            "awareness": 10.5,
+            "positioning": 11.7,
+            "utility": 7.6,
+            "looting": 9.9,
+            "decision": 13.5,
+            "comms": 8.8
+          },
+          "mental": {
+            "composure": 11.6,
+            "teamwork": 14.1,
+            "determination": 9.6
+          },
+          "hidden": {
+            "consistency": 11.6,
+            "bigMatch": 14.1,
+            "injuryProne": 8
+          },
+          "condition": {
+            "stamina": 12.3,
+            "form": 0,
+            "fatigue": 0
+          },
+          "roleProficiency": {
+            "Rusher": 8,
+            "SecondRusher": 8,
+            "Sniper": 14,
+            "Support": 8,
+            "Grenadier": 8
+          },
+          "skillProficiency": {
+            "sk_dash": 9,
+            "sk_shield": 9,
+            "sk_scan": 13.5,
+            "sk_heal": 9,
+            "sk_deploy": 9
+          }
+        },
+        {
+          "playerId": "p_049",
+          "name": "Ace",
+          "age": 25,
+          "region": "BR",
+          "mechanical": {
+            "aim": 10.7,
+            "recoil": 10.2,
+            "reflex": 13.3,
+            "movement": 9.9,
+            "cqc": 12.5,
+            "longRange": 13.3
+          },
+          "tactical": {
+            "awareness": 9.9,
+            "positioning": 12.6,
+            "utility": 13.2,
+            "looting": 12.2,
+            "decision": 14.6,
+            "comms": 12.2
+          },
+          "mental": {
+            "composure": 10.2,
+            "teamwork": 9.4,
+            "determination": 11.1
+          },
+          "hidden": {
+            "consistency": 11.8,
+            "bigMatch": 10.2,
+            "injuryProne": 2.8
+          },
+          "condition": {
+            "stamina": 8.1,
+            "form": 0,
+            "fatigue": 0
+          },
+          "roleProficiency": {
+            "Rusher": 8,
+            "SecondRusher": 8,
+            "Sniper": 8,
+            "Support": 14,
+            "Grenadier": 8
+          },
+          "skillProficiency": {
+            "sk_dash": 9,
+            "sk_shield": 9,
+            "sk_scan": 9,
+            "sk_heal": 13.5,
+            "sk_deploy": 9
+          }
+        },
+        {
+          "playerId": "p_050",
+          "name": "Nova",
+          "age": 21,
+          "region": "BR",
+          "mechanical": {
+            "aim": 9.1,
+            "recoil": 11,
+            "reflex": 12.4,
+            "movement": 11.8,
+            "cqc": 14.4,
+            "longRange": 9.9
+          },
+          "tactical": {
+            "awareness": 9.4,
+            "positioning": 7.5,
+            "utility": 14.3,
+            "looting": 9.7,
+            "decision": 11.9,
+            "comms": 16.5
+          },
+          "mental": {
+            "composure": 11.2,
+            "teamwork": 11.5,
+            "determination": 14.4
+          },
+          "hidden": {
+            "consistency": 10.8,
+            "bigMatch": 11,
+            "injuryProne": 5.1
+          },
+          "condition": {
+            "stamina": 10.8,
+            "form": 0,
+            "fatigue": 0
+          },
+          "roleProficiency": {
+            "Rusher": 8,
+            "SecondRusher": 8,
+            "Sniper": 8,
+            "Support": 8,
+            "Grenadier": 14
+          },
+          "skillProficiency": {
+            "sk_dash": 9,
+            "sk_shield": 9,
+            "sk_scan": 9,
+            "sk_heal": 9,
+            "sk_deploy": 13.5
+          }
+        }
+      ]
+    },
+    {
+      "teamId": "t_wag",
+      "name": "WAG Esports",
+      "region": "VN",
+      "colorHex": "#FB5607",
+      "lineup": {
+        "starters": [
+          {
+            "playerId": "p_051",
+            "role": "Rusher",
+            "active": "sk_dash",
+            "passives": [
+              "sk_p_aim",
+              "sk_p_move",
+              "sk_p_armor"
+            ]
+          },
+          {
+            "playerId": "p_052",
+            "role": "SecondRusher",
+            "active": "sk_shield",
+            "passives": [
+              "sk_p_armor",
+              "sk_p_gloo",
+              "sk_p_heal"
+            ]
+          },
+          {
+            "playerId": "p_053",
+            "role": "Sniper",
+            "active": "sk_scan",
+            "passives": [
+              "sk_p_heal",
+              "sk_p_loot",
+              "sk_p_aim"
+            ]
+          },
+          {
+            "playerId": "p_054",
+            "role": "Support",
+            "active": "sk_heal",
+            "passives": [
+              "sk_p_aim",
+              "sk_p_move",
+              "sk_p_armor"
+            ]
+          }
+        ],
+        "sub": "p_055",
+        "igl": "p_054"
+      },
+      "playbook": {
+        "drop": "Flex",
+        "rotation": "Late",
+        "engage": "Balanced",
+        "endgame": "Building"
+      },
+      "synergy": 67,
+      "players": [
+        {
+          "playerId": "p_051",
+          "name": "Blaze",
+          "age": 19,
+          "region": "VN",
+          "mechanical": {
+            "aim": 11.4,
+            "recoil": 10.1,
+            "reflex": 13.9,
+            "movement": 8.1,
+            "cqc": 11.4,
+            "longRange": 12.5
+          },
+          "tactical": {
+            "awareness": 12,
+            "positioning": 12.9,
+            "utility": 10.2,
+            "looting": 12.8,
+            "decision": 13.3,
+            "comms": 13.2
+          },
+          "mental": {
+            "composure": 5.7,
+            "teamwork": 11.4,
+            "determination": 12.6
+          },
+          "hidden": {
+            "consistency": 9.7,
+            "bigMatch": 11.7,
+            "injuryProne": 12
+          },
+          "condition": {
+            "stamina": 9.9,
+            "form": 0,
+            "fatigue": 0
+          },
+          "roleProficiency": {
+            "Rusher": 14,
+            "SecondRusher": 8,
+            "Sniper": 8,
+            "Support": 8,
+            "Grenadier": 8
+          },
+          "skillProficiency": {
+            "sk_dash": 13.5,
+            "sk_shield": 9,
+            "sk_scan": 9,
+            "sk_heal": 9,
+            "sk_deploy": 9
+          }
+        },
+        {
+          "playerId": "p_052",
+          "name": "Storm",
+          "age": 18,
+          "region": "VN",
+          "mechanical": {
+            "aim": 11.4,
+            "recoil": 13.5,
+            "reflex": 10.2,
+            "movement": 10.6,
+            "cqc": 11.4,
+            "longRange": 13
+          },
+          "tactical": {
+            "awareness": 10.2,
+            "positioning": 11.2,
+            "utility": 12,
+            "looting": 9.4,
+            "decision": 10.9,
+            "comms": 13.8
+          },
+          "mental": {
+            "composure": 10.9,
+            "teamwork": 14.1,
+            "determination": 10.4
+          },
+          "hidden": {
+            "consistency": 11.2,
+            "bigMatch": 12.7,
+            "injuryProne": 6.5
+          },
+          "condition": {
+            "stamina": 10.2,
+            "form": 0,
+            "fatigue": 0
+          },
+          "roleProficiency": {
+            "Rusher": 8,
+            "SecondRusher": 14,
+            "Sniper": 8,
+            "Support": 8,
+            "Grenadier": 8
+          },
+          "skillProficiency": {
+            "sk_dash": 9,
+            "sk_shield": 13.5,
+            "sk_scan": 9,
+            "sk_heal": 9,
+            "sk_deploy": 9
+          }
+        },
+        {
+          "playerId": "p_053",
+          "name": "Frost",
+          "age": 25,
+          "region": "VN",
+          "mechanical": {
+            "aim": 13.8,
+            "recoil": 13.5,
+            "reflex": 9.9,
+            "movement": 8.1,
+            "cqc": 12.8,
+            "longRange": 11.8
+          },
+          "tactical": {
+            "awareness": 11.4,
+            "positioning": 14.5,
+            "utility": 9.6,
+            "looting": 5.7,
+            "decision": 12.5,
+            "comms": 7.8
+          },
+          "mental": {
+            "composure": 16.7,
+            "teamwork": 12.9,
+            "determination": 13.9
+          },
+          "hidden": {
+            "consistency": 13.6,
+            "bigMatch": 8.3,
+            "injuryProne": 7.6
+          },
+          "condition": {
+            "stamina": 10.7,
+            "form": 0,
+            "fatigue": 0
+          },
+          "roleProficiency": {
+            "Rusher": 8,
+            "SecondRusher": 8,
+            "Sniper": 14,
+            "Support": 8,
+            "Grenadier": 8
+          },
+          "skillProficiency": {
+            "sk_dash": 9,
+            "sk_shield": 9,
+            "sk_scan": 13.5,
+            "sk_heal": 9,
+            "sk_deploy": 9
+          }
+        },
+        {
+          "playerId": "p_054",
+          "name": "Bolt",
+          "age": 25,
+          "region": "VN",
+          "mechanical": {
+            "aim": 11.9,
+            "recoil": 11.9,
+            "reflex": 8,
+            "movement": 12.2,
+            "cqc": 8.6,
+            "longRange": 11.8
+          },
+          "tactical": {
+            "awareness": 11.3,
+            "positioning": 11.8,
+            "utility": 11.9,
+            "looting": 13.4,
+            "decision": 12.4,
+            "comms": 12.7
+          },
+          "mental": {
+            "composure": 13.5,
+            "teamwork": 11.9,
+            "determination": 12.8
+          },
+          "hidden": {
+            "consistency": 10.1,
+            "bigMatch": 9.7,
+            "injuryProne": 7.4
+          },
+          "condition": {
+            "stamina": 14.1,
+            "form": 0,
+            "fatigue": 0
+          },
+          "roleProficiency": {
+            "Rusher": 8,
+            "SecondRusher": 8,
+            "Sniper": 8,
+            "Support": 14,
+            "Grenadier": 8
+          },
+          "skillProficiency": {
+            "sk_dash": 9,
+            "sk_shield": 9,
+            "sk_scan": 9,
+            "sk_heal": 13.5,
+            "sk_deploy": 9
+          }
+        },
+        {
+          "playerId": "p_055",
+          "name": "Hawk",
+          "age": 21,
+          "region": "VN",
+          "mechanical": {
+            "aim": 9.1,
+            "recoil": 12.2,
+            "reflex": 11.2,
+            "movement": 8,
+            "cqc": 9.2,
+            "longRange": 12.8
+          },
+          "tactical": {
+            "awareness": 7.8,
+            "positioning": 11.8,
+            "utility": 14.9,
+            "looting": 10.4,
+            "decision": 15.5,
+            "comms": 9.4
+          },
+          "mental": {
+            "composure": 12.9,
+            "teamwork": 11.8,
+            "determination": 11.6
+          },
+          "hidden": {
+            "consistency": 7.6,
+            "bigMatch": 10.2,
+            "injuryProne": 2.4
+          },
+          "condition": {
+            "stamina": 11.1,
+            "form": 0,
+            "fatigue": 0
+          },
+          "roleProficiency": {
+            "Rusher": 8,
+            "SecondRusher": 8,
+            "Sniper": 8,
+            "Support": 8,
+            "Grenadier": 14
+          },
+          "skillProficiency": {
+            "sk_dash": 9,
+            "sk_shield": 9,
+            "sk_scan": 9,
+            "sk_heal": 9,
+            "sk_deploy": 13.5
+          }
+        }
+      ]
+    },
+    {
+      "teamId": "t_pbox",
+      "name": "PBox Flash",
+      "region": "VN",
+      "colorHex": "#FF006E",
+      "lineup": {
+        "starters": [
+          {
+            "playerId": "p_056",
+            "role": "Rusher",
+            "active": "sk_dash",
+            "passives": [
+              "sk_p_aim",
+              "sk_p_move",
+              "sk_p_armor"
+            ]
+          },
+          {
+            "playerId": "p_057",
+            "role": "SecondRusher",
+            "active": "sk_shield",
+            "passives": [
+              "sk_p_armor",
+              "sk_p_gloo",
+              "sk_p_heal"
+            ]
+          },
+          {
+            "playerId": "p_058",
+            "role": "Sniper",
+            "active": "sk_scan",
+            "passives": [
+              "sk_p_heal",
+              "sk_p_loot",
+              "sk_p_aim"
+            ]
+          },
+          {
+            "playerId": "p_059",
+            "role": "Support",
+            "active": "sk_heal",
+            "passives": [
+              "sk_p_aim",
+              "sk_p_move",
+              "sk_p_armor"
+            ]
+          }
+        ],
+        "sub": "p_060",
+        "igl": "p_059"
+      },
+      "playbook": {
+        "drop": "Cold",
+        "rotation": "Late",
+        "engage": "Avoid",
+        "endgame": "GlooFort"
+      },
+      "synergy": 67,
+      "players": [
+        {
+          "playerId": "p_056",
+          "name": "Wolf",
+          "age": 18,
+          "region": "VN",
+          "mechanical": {
+            "aim": 10.7,
+            "recoil": 11.1,
+            "reflex": 10.2,
+            "movement": 12.6,
+            "cqc": 9.8,
+            "longRange": 6.5
+          },
+          "tactical": {
+            "awareness": 12.2,
+            "positioning": 10.4,
+            "utility": 10.9,
+            "looting": 13.9,
+            "decision": 10.1,
+            "comms": 13.4
+          },
+          "mental": {
+            "composure": 12.5,
+            "teamwork": 12.6,
+            "determination": 12.3
+          },
+          "hidden": {
+            "consistency": 12.9,
+            "bigMatch": 7.3,
+            "injuryProne": 3.8
+          },
+          "condition": {
+            "stamina": 10.9,
+            "form": 0,
+            "fatigue": 0
+          },
+          "roleProficiency": {
+            "Rusher": 14,
+            "SecondRusher": 8,
+            "Sniper": 8,
+            "Support": 8,
+            "Grenadier": 8
+          },
+          "skillProficiency": {
+            "sk_dash": 13.5,
+            "sk_shield": 9,
+            "sk_scan": 9,
+            "sk_heal": 9,
+            "sk_deploy": 9
+          }
+        },
+        {
+          "playerId": "p_057",
+          "name": "Lynx",
+          "age": 23,
+          "region": "VN",
+          "mechanical": {
+            "aim": 10.4,
+            "recoil": 8.3,
+            "reflex": 10.6,
+            "movement": 8.8,
+            "cqc": 10.7,
+            "longRange": 13.2
+          },
+          "tactical": {
+            "awareness": 10.9,
+            "positioning": 12.6,
+            "utility": 10.1,
+            "looting": 7.9,
+            "decision": 10.4,
+            "comms": 10.3
+          },
+          "mental": {
+            "composure": 10.3,
+            "teamwork": 9.2,
+            "determination": 6.2
+          },
+          "hidden": {
+            "consistency": 11.8,
+            "bigMatch": 11.6,
+            "injuryProne": 10
+          },
+          "condition": {
+            "stamina": 13.5,
+            "form": 0,
+            "fatigue": 0
+          },
+          "roleProficiency": {
+            "Rusher": 8,
+            "SecondRusher": 14,
+            "Sniper": 8,
+            "Support": 8,
+            "Grenadier": 8
+          },
+          "skillProficiency": {
+            "sk_dash": 9,
+            "sk_shield": 13.5,
+            "sk_scan": 9,
+            "sk_heal": 9,
+            "sk_deploy": 9
+          }
+        },
+        {
+          "playerId": "p_058",
+          "name": "Bear",
+          "age": 19,
+          "region": "VN",
+          "mechanical": {
+            "aim": 16.2,
+            "recoil": 8.7,
+            "reflex": 12.4,
+            "movement": 11.7,
+            "cqc": 10.7,
+            "longRange": 13.3
+          },
+          "tactical": {
+            "awareness": 12.7,
+            "positioning": 10.4,
+            "utility": 13.2,
+            "looting": 11.3,
+            "decision": 9.3,
+            "comms": 13
+          },
+          "mental": {
+            "composure": 8.5,
+            "teamwork": 9.2,
+            "determination": 12.7
+          },
+          "hidden": {
+            "consistency": 9.2,
+            "bigMatch": 14.5,
+            "injuryProne": 10.6
+          },
+          "condition": {
+            "stamina": 9.4,
+            "form": 0,
+            "fatigue": 0
+          },
+          "roleProficiency": {
+            "Rusher": 8,
+            "SecondRusher": 8,
+            "Sniper": 14,
+            "Support": 8,
+            "Grenadier": 8
+          },
+          "skillProficiency": {
+            "sk_dash": 9,
+            "sk_shield": 9,
+            "sk_scan": 13.5,
+            "sk_heal": 9,
+            "sk_deploy": 9
+          }
+        },
+        {
+          "playerId": "p_059",
+          "name": "Fox",
+          "age": 25,
+          "region": "VN",
+          "mechanical": {
+            "aim": 9.5,
+            "recoil": 9.3,
+            "reflex": 12.1,
+            "movement": 10.3,
+            "cqc": 11.8,
+            "longRange": 14
+          },
+          "tactical": {
+            "awareness": 12.4,
+            "positioning": 12.3,
+            "utility": 6.2,
+            "looting": 13.1,
+            "decision": 10.1,
+            "comms": 15.5
+          },
+          "mental": {
+            "composure": 9.4,
+            "teamwork": 11.9,
+            "determination": 11.7
+          },
+          "hidden": {
+            "consistency": 14.9,
+            "bigMatch": 8.9,
+            "injuryProne": 5.8
+          },
+          "condition": {
+            "stamina": 9.8,
+            "form": 0,
+            "fatigue": 0
+          },
+          "roleProficiency": {
+            "Rusher": 8,
+            "SecondRusher": 8,
+            "Sniper": 8,
+            "Support": 14,
+            "Grenadier": 8
+          },
+          "skillProficiency": {
+            "sk_dash": 9,
+            "sk_shield": 9,
+            "sk_scan": 9,
+            "sk_heal": 13.5,
+            "sk_deploy": 9
+          }
+        },
+        {
+          "playerId": "p_060",
+          "name": "Crow",
+          "age": 24,
+          "region": "VN",
+          "mechanical": {
+            "aim": 8.7,
+            "recoil": 7.2,
+            "reflex": 11.2,
+            "movement": 6.4,
+            "cqc": 11.6,
+            "longRange": 13.7
+          },
+          "tactical": {
+            "awareness": 7.9,
+            "positioning": 11,
+            "utility": 16.2,
+            "looting": 10.1,
+            "decision": 12.7,
+            "comms": 11.8
+          },
+          "mental": {
+            "composure": 12.6,
+            "teamwork": 11,
+            "determination": 10.5
+          },
+          "hidden": {
+            "consistency": 17,
+            "bigMatch": 10.7,
+            "injuryProne": 2.8
+          },
+          "condition": {
+            "stamina": 10.2,
+            "form": 0,
+            "fatigue": 0
+          },
+          "roleProficiency": {
+            "Rusher": 8,
+            "SecondRusher": 8,
+            "Sniper": 8,
+            "Support": 8,
+            "Grenadier": 14
+          },
+          "skillProficiency": {
+            "sk_dash": 9,
+            "sk_shield": 9,
+            "sk_scan": 9,
+            "sk_heal": 9,
+            "sk_deploy": 13.5
+          }
+        }
+      ]
+    },
+    {
+      "teamId": "t_indostars",
+      "name": "Indostars",
+      "region": "SEA",
+      "colorHex": "#3A86FF",
+      "lineup": {
+        "starters": [
+          {
+            "playerId": "p_061",
+            "role": "Rusher",
+            "active": "sk_dash",
+            "passives": [
+              "sk_p_aim",
+              "sk_p_move",
+              "sk_p_armor"
+            ]
+          },
+          {
+            "playerId": "p_062",
+            "role": "SecondRusher",
+            "active": "sk_shield",
+            "passives": [
+              "sk_p_armor",
+              "sk_p_gloo",
+              "sk_p_heal"
+            ]
+          },
+          {
+            "playerId": "p_063",
+            "role": "Sniper",
+            "active": "sk_scan",
+            "passives": [
+              "sk_p_heal",
+              "sk_p_loot",
+              "sk_p_aim"
+            ]
+          },
+          {
+            "playerId": "p_064",
+            "role": "Support",
+            "active": "sk_heal",
+            "passives": [
+              "sk_p_aim",
+              "sk_p_move",
+              "sk_p_armor"
+            ]
+          }
+        ],
+        "sub": "p_065",
+        "igl": "p_064"
+      },
+      "playbook": {
+        "drop": "Hot",
+        "rotation": "Early",
+        "engage": "Avoid",
+        "endgame": "HighGround"
+      },
+      "synergy": 43,
+      "players": [
+        {
+          "playerId": "p_061",
+          "name": "jin",
+          "age": 23,
+          "region": "SEA",
+          "mechanical": {
+            "aim": 7.9,
+            "recoil": 7.7,
+            "reflex": 8.7,
+            "movement": 9.6,
+            "cqc": 10.4,
+            "longRange": 12
+          },
+          "tactical": {
+            "awareness": 10.6,
+            "positioning": 7,
+            "utility": 6.6,
+            "looting": 8.1,
+            "decision": 11.1,
+            "comms": 10
+          },
+          "mental": {
+            "composure": 6.5,
+            "teamwork": 6.7,
+            "determination": 5.9
+          },
+          "hidden": {
+            "consistency": 9.2,
+            "bigMatch": 8.2,
+            "injuryProne": 5
+          },
+          "condition": {
+            "stamina": 5.2,
+            "form": 0,
+            "fatigue": 0
+          },
+          "roleProficiency": {
+            "Rusher": 11.2,
+            "SecondRusher": 5.2,
+            "Sniper": 5.2,
+            "Support": 5.2,
+            "Grenadier": 5.2
+          },
+          "skillProficiency": {
+            "sk_dash": 10.7,
+            "sk_shield": 6.2,
+            "sk_scan": 6.2,
+            "sk_heal": 6.2,
+            "sk_deploy": 6.2
+          }
+        },
+        {
+          "playerId": "p_062",
+          "name": "Ken",
+          "age": 17,
+          "region": "SEA",
+          "mechanical": {
+            "aim": 7.6,
+            "recoil": 7.3,
+            "reflex": 8.4,
+            "movement": 7.3,
+            "cqc": 7.9,
+            "longRange": 4.4
+          },
+          "tactical": {
+            "awareness": 11.6,
+            "positioning": 11.1,
+            "utility": 6.5,
+            "looting": 11.1,
+            "decision": 11,
+            "comms": 7.2
+          },
+          "mental": {
+            "composure": 7.4,
+            "teamwork": 9.1,
+            "determination": 9.4
+          },
+          "hidden": {
+            "consistency": 7.9,
+            "bigMatch": 5.8,
+            "injuryProne": 4.4
+          },
+          "condition": {
+            "stamina": 7.8,
+            "form": 0,
+            "fatigue": 0
+          },
+          "roleProficiency": {
+            "Rusher": 5.2,
+            "SecondRusher": 11.2,
+            "Sniper": 5.2,
+            "Support": 5.2,
+            "Grenadier": 5.2
+          },
+          "skillProficiency": {
+            "sk_dash": 6.2,
+            "sk_shield": 10.7,
+            "sk_scan": 6.2,
+            "sk_heal": 6.2,
+            "sk_deploy": 6.2
+          }
+        },
+        {
+          "playerId": "p_063",
+          "name": "Ryu",
+          "age": 17,
+          "region": "SEA",
+          "mechanical": {
+            "aim": 10,
+            "recoil": 5.2,
+            "reflex": 11.4,
+            "movement": 9.8,
+            "cqc": 8.7,
+            "longRange": 11.5
+          },
+          "tactical": {
+            "awareness": 7.8,
+            "positioning": 8.3,
+            "utility": 12.3,
+            "looting": 9.7,
+            "decision": 8.2,
+            "comms": 11.1
+          },
+          "mental": {
+            "composure": 8.5,
+            "teamwork": 5.7,
+            "determination": 7.2
+          },
+          "hidden": {
+            "consistency": 7.6,
+            "bigMatch": 6.9,
+            "injuryProne": 11.9
+          },
+          "condition": {
+            "stamina": 8.6,
+            "form": 0,
+            "fatigue": 0
+          },
+          "roleProficiency": {
+            "Rusher": 5.2,
+            "SecondRusher": 5.2,
+            "Sniper": 11.2,
+            "Support": 5.2,
+            "Grenadier": 5.2
+          },
+          "skillProficiency": {
+            "sk_dash": 6.2,
+            "sk_shield": 6.2,
+            "sk_scan": 10.7,
+            "sk_heal": 6.2,
+            "sk_deploy": 6.2
+          }
+        },
+        {
+          "playerId": "p_064",
+          "name": "Kai",
+          "age": 25,
+          "region": "SEA",
+          "mechanical": {
+            "aim": 9.4,
+            "recoil": 6.4,
+            "reflex": 8.5,
+            "movement": 8,
+            "cqc": 3.4,
+            "longRange": 11.6
+          },
+          "tactical": {
+            "awareness": 10.9,
+            "positioning": 8.5,
+            "utility": 10.1,
+            "looting": 5.9,
+            "decision": 13.7,
+            "comms": 6.4
+          },
+          "mental": {
+            "composure": 8.5,
+            "teamwork": 11.6,
+            "determination": 5.2
+          },
+          "hidden": {
+            "consistency": 8.7,
+            "bigMatch": 7.9,
+            "injuryProne": 7.5
+          },
+          "condition": {
+            "stamina": 6.8,
+            "form": 0,
+            "fatigue": 0
+          },
+          "roleProficiency": {
+            "Rusher": 5.2,
+            "SecondRusher": 5.2,
+            "Sniper": 5.2,
+            "Support": 11.2,
+            "Grenadier": 5.2
+          },
+          "skillProficiency": {
+            "sk_dash": 6.2,
+            "sk_shield": 6.2,
+            "sk_scan": 6.2,
+            "sk_heal": 10.7,
+            "sk_deploy": 6.2
+          }
+        },
+        {
+          "playerId": "p_065",
+          "name": "Leo",
+          "age": 22,
+          "region": "SEA",
+          "mechanical": {
+            "aim": 5.3,
+            "recoil": 8.3,
+            "reflex": 7,
+            "movement": 8.1,
+            "cqc": 9.2,
+            "longRange": 9.8
+          },
+          "tactical": {
+            "awareness": 10,
+            "positioning": 10.5,
+            "utility": 8.7,
+            "looting": 7.6,
+            "decision": 6.8,
+            "comms": 4.7
+          },
+          "mental": {
+            "composure": 6.4,
+            "teamwork": 9.7,
+            "determination": 6
+          },
+          "hidden": {
+            "consistency": 8.2,
+            "bigMatch": 7.6,
+            "injuryProne": 5.7
+          },
+          "condition": {
+            "stamina": 8.9,
+            "form": 0,
+            "fatigue": 0
+          },
+          "roleProficiency": {
+            "Rusher": 5.2,
+            "SecondRusher": 5.2,
+            "Sniper": 5.2,
+            "Support": 5.2,
+            "Grenadier": 11.2
+          },
+          "skillProficiency": {
+            "sk_dash": 6.2,
+            "sk_shield": 6.2,
+            "sk_scan": 6.2,
+            "sk_heal": 6.2,
+            "sk_deploy": 10.7
+          }
+        }
+      ]
+    },
+    {
+      "teamId": "t_attack",
+      "name": "Attack All Around",
+      "region": "SEA",
+      "colorHex": "#8338EC",
+      "lineup": {
+        "starters": [
+          {
+            "playerId": "p_066",
+            "role": "Rusher",
+            "active": "sk_dash",
+            "passives": [
+              "sk_p_aim",
+              "sk_p_move",
+              "sk_p_armor"
+            ]
+          },
+          {
+            "playerId": "p_067",
+            "role": "SecondRusher",
+            "active": "sk_shield",
+            "passives": [
+              "sk_p_armor",
+              "sk_p_gloo",
+              "sk_p_heal"
+            ]
+          },
+          {
+            "playerId": "p_068",
+            "role": "Sniper",
+            "active": "sk_scan",
+            "passives": [
+              "sk_p_heal",
+              "sk_p_loot",
+              "sk_p_aim"
+            ]
+          },
+          {
+            "playerId": "p_069",
+            "role": "Support",
+            "active": "sk_heal",
+            "passives": [
+              "sk_p_aim",
+              "sk_p_move",
+              "sk_p_armor"
+            ]
+          }
+        ],
+        "sub": "p_070",
+        "igl": "p_069"
+      },
+      "playbook": {
+        "drop": "Flex",
+        "rotation": "Early",
+        "engage": "Avoid",
+        "endgame": "Building"
+      },
+      "synergy": 50,
+      "players": [
+        {
+          "playerId": "p_066",
+          "name": "Max",
+          "age": 18,
+          "region": "SEA",
+          "mechanical": {
+            "aim": 6.4,
+            "recoil": 8.1,
+            "reflex": 11.3,
+            "movement": 5.8,
+            "cqc": 12.7,
+            "longRange": 10.3
+          },
+          "tactical": {
+            "awareness": 7.6,
+            "positioning": 9.8,
+            "utility": 8.5,
+            "looting": 7.2,
+            "decision": 9.3,
+            "comms": 10.5
+          },
+          "mental": {
+            "composure": 7.6,
+            "teamwork": 10.7,
+            "determination": 9.4
+          },
+          "hidden": {
+            "consistency": 4.6,
+            "bigMatch": 5.1,
+            "injuryProne": 3.6
+          },
+          "condition": {
+            "stamina": 8.4,
+            "form": 0,
+            "fatigue": 0
+          },
+          "roleProficiency": {
+            "Rusher": 11.2,
+            "SecondRusher": 5.2,
+            "Sniper": 5.2,
+            "Support": 5.2,
+            "Grenadier": 5.2
+          },
+          "skillProficiency": {
+            "sk_dash": 10.7,
+            "sk_shield": 6.2,
+            "sk_scan": 6.2,
+            "sk_heal": 6.2,
+            "sk_deploy": 6.2
+          }
+        },
+        {
+          "playerId": "p_067",
+          "name": "Sam",
+          "age": 20,
+          "region": "SEA",
+          "mechanical": {
+            "aim": 10.1,
+            "recoil": 5.9,
+            "reflex": 8.3,
+            "movement": 7.4,
+            "cqc": 8.6,
+            "longRange": 9.3
+          },
+          "tactical": {
+            "awareness": 8.6,
+            "positioning": 6.7,
+            "utility": 11.3,
+            "looting": 9.6,
+            "decision": 10.1,
+            "comms": 10
+          },
+          "mental": {
+            "composure": 8,
+            "teamwork": 7.8,
+            "determination": 11.1
+          },
+          "hidden": {
+            "consistency": 11.8,
+            "bigMatch": 8.4,
+            "injuryProne": 2.4
+          },
+          "condition": {
+            "stamina": 12.6,
+            "form": 0,
+            "fatigue": 0
+          },
+          "roleProficiency": {
+            "Rusher": 5.2,
+            "SecondRusher": 11.2,
+            "Sniper": 5.2,
+            "Support": 5.2,
+            "Grenadier": 5.2
+          },
+          "skillProficiency": {
+            "sk_dash": 6.2,
+            "sk_shield": 10.7,
+            "sk_scan": 6.2,
+            "sk_heal": 6.2,
+            "sk_deploy": 6.2
+          }
+        },
+        {
+          "playerId": "p_068",
+          "name": "Ray",
+          "age": 25,
+          "region": "SEA",
+          "mechanical": {
+            "aim": 8.6,
+            "recoil": 6.5,
+            "reflex": 9.5,
+            "movement": 5.4,
+            "cqc": 9.3,
+            "longRange": 10.4
+          },
+          "tactical": {
+            "awareness": 9.2,
+            "positioning": 5.5,
+            "utility": 10.6,
+            "looting": 7.6,
+            "decision": 9.6,
+            "comms": 6.7
+          },
+          "mental": {
+            "composure": 7.5,
+            "teamwork": 3.6,
+            "determination": 10.7
+          },
+          "hidden": {
+            "consistency": 9.8,
+            "bigMatch": 4.2,
+            "injuryProne": 2.2
+          },
+          "condition": {
+            "stamina": 7.3,
+            "form": 0,
+            "fatigue": 0
+          },
+          "roleProficiency": {
+            "Rusher": 5.2,
+            "SecondRusher": 5.2,
+            "Sniper": 11.2,
+            "Support": 5.2,
+            "Grenadier": 5.2
+          },
+          "skillProficiency": {
+            "sk_dash": 6.2,
+            "sk_shield": 6.2,
+            "sk_scan": 10.7,
+            "sk_heal": 6.2,
+            "sk_deploy": 6.2
+          }
+        },
+        {
+          "playerId": "p_069",
+          "name": "Jay",
+          "age": 25,
+          "region": "SEA",
+          "mechanical": {
+            "aim": 9.1,
+            "recoil": 6.2,
+            "reflex": 8.3,
+            "movement": 5.9,
+            "cqc": 5.6,
+            "longRange": 6.9
+          },
+          "tactical": {
+            "awareness": 7.8,
+            "positioning": 5.4,
+            "utility": 7,
+            "looting": 10,
+            "decision": 11.2,
+            "comms": 9.2
+          },
+          "mental": {
+            "composure": 6.6,
+            "teamwork": 12.6,
+            "determination": 8
+          },
+          "hidden": {
+            "consistency": 6.7,
+            "bigMatch": 9.5,
+            "injuryProne": 8
+          },
+          "condition": {
+            "stamina": 7.7,
+            "form": 0,
+            "fatigue": 0
+          },
+          "roleProficiency": {
+            "Rusher": 5.2,
+            "SecondRusher": 5.2,
+            "Sniper": 5.2,
+            "Support": 11.2,
+            "Grenadier": 5.2
+          },
+          "skillProficiency": {
+            "sk_dash": 6.2,
+            "sk_shield": 6.2,
+            "sk_scan": 6.2,
+            "sk_heal": 10.7,
+            "sk_deploy": 6.2
+          }
+        },
+        {
+          "playerId": "p_070",
+          "name": "Zed",
+          "age": 20,
+          "region": "SEA",
+          "mechanical": {
+            "aim": 12.3,
+            "recoil": 7.4,
+            "reflex": 12.2,
+            "movement": 5.6,
+            "cqc": 9.9,
+            "longRange": 10.4
+          },
+          "tactical": {
+            "awareness": 8.6,
+            "positioning": 7.7,
+            "utility": 10.7,
+            "looting": 9.4,
+            "decision": 9.2,
+            "comms": 10
+          },
+          "mental": {
+            "composure": 7.3,
+            "teamwork": 8.2,
+            "determination": 5.9
+          },
+          "hidden": {
+            "consistency": 11,
+            "bigMatch": 6.6,
+            "injuryProne": 5.9
+          },
+          "condition": {
+            "stamina": 7,
+            "form": 0,
+            "fatigue": 0
+          },
+          "roleProficiency": {
+            "Rusher": 5.2,
+            "SecondRusher": 5.2,
+            "Sniper": 5.2,
+            "Support": 5.2,
+            "Grenadier": 11.2
+          },
+          "skillProficiency": {
+            "sk_dash": 6.2,
+            "sk_shield": 6.2,
+            "sk_scan": 6.2,
+            "sk_heal": 6.2,
+            "sk_deploy": 10.7
+          }
+        }
+      ]
+    },
+    {
+      "teamId": "t_magic",
+      "name": "Magic Squad",
+      "region": "BR",
+      "colorHex": "#06D6A0",
+      "lineup": {
+        "starters": [
+          {
+            "playerId": "p_071",
+            "role": "Rusher",
+            "active": "sk_dash",
+            "passives": [
+              "sk_p_aim",
+              "sk_p_move",
+              "sk_p_armor"
+            ]
+          },
+          {
+            "playerId": "p_072",
+            "role": "SecondRusher",
+            "active": "sk_shield",
+            "passives": [
+              "sk_p_armor",
+              "sk_p_gloo",
+              "sk_p_heal"
+            ]
+          },
+          {
+            "playerId": "p_073",
+            "role": "Sniper",
+            "active": "sk_scan",
+            "passives": [
+              "sk_p_heal",
+              "sk_p_loot",
+              "sk_p_aim"
+            ]
+          },
+          {
+            "playerId": "p_074",
+            "role": "Support",
+            "active": "sk_heal",
+            "passives": [
+              "sk_p_aim",
+              "sk_p_move",
+              "sk_p_armor"
+            ]
+          }
+        ],
+        "sub": "p_075",
+        "igl": "p_074"
+      },
+      "playbook": {
+        "drop": "Cold",
+        "rotation": "Edge",
+        "engage": "Avoid",
+        "endgame": "GlooFort"
+      },
+      "synergy": 48,
+      "players": [
+        {
+          "playerId": "p_071",
+          "name": "Ash",
+          "age": 17,
+          "region": "BR",
+          "mechanical": {
+            "aim": 7.1,
+            "recoil": 6.7,
+            "reflex": 13.4,
+            "movement": 12,
+            "cqc": 7,
+            "longRange": 7.5
+          },
+          "tactical": {
+            "awareness": 8.3,
+            "positioning": 9.7,
+            "utility": 7.9,
+            "looting": 7.3,
+            "decision": 10,
+            "comms": 7.7
+          },
+          "mental": {
+            "composure": 7.7,
+            "teamwork": 8,
+            "determination": 8.5
+          },
+          "hidden": {
+            "consistency": 3.5,
+            "bigMatch": 7.6,
+            "injuryProne": 4.8
+          },
+          "condition": {
+            "stamina": 8.4,
+            "form": 0,
+            "fatigue": 0
+          },
+          "roleProficiency": {
+            "Rusher": 11.2,
+            "SecondRusher": 5.2,
+            "Sniper": 5.2,
+            "Support": 5.2,
+            "Grenadier": 5.2
+          },
+          "skillProficiency": {
+            "sk_dash": 10.7,
+            "sk_shield": 6.2,
+            "sk_scan": 6.2,
+            "sk_heal": 6.2,
+            "sk_deploy": 6.2
+          }
+        },
+        {
+          "playerId": "p_072",
+          "name": "Sol",
+          "age": 25,
+          "region": "BR",
+          "mechanical": {
+            "aim": 9.4,
+            "recoil": 11.5,
+            "reflex": 7.7,
+            "movement": 8,
+            "cqc": 9.9,
+            "longRange": 7.4
+          },
+          "tactical": {
+            "awareness": 8.4,
+            "positioning": 8.7,
+            "utility": 7.1,
+            "looting": 11.1,
+            "decision": 8.4,
+            "comms": 10.1
+          },
+          "mental": {
+            "composure": 9.9,
+            "teamwork": 10.8,
+            "determination": 10.1
+          },
+          "hidden": {
+            "consistency": 10.9,
+            "bigMatch": 7.2,
+            "injuryProne": 5.1
+          },
+          "condition": {
+            "stamina": 5.5,
+            "form": 0,
+            "fatigue": 0
+          },
+          "roleProficiency": {
+            "Rusher": 5.2,
+            "SecondRusher": 11.2,
+            "Sniper": 5.2,
+            "Support": 5.2,
+            "Grenadier": 5.2
+          },
+          "skillProficiency": {
+            "sk_dash": 6.2,
+            "sk_shield": 10.7,
+            "sk_scan": 6.2,
+            "sk_heal": 6.2,
+            "sk_deploy": 6.2
+          }
+        },
+        {
+          "playerId": "p_073",
+          "name": "Lux",
+          "age": 18,
+          "region": "BR",
+          "mechanical": {
+            "aim": 7.3,
+            "recoil": 8.7,
+            "reflex": 7.1,
+            "movement": 10,
+            "cqc": 3.1,
+            "longRange": 8.2
+          },
+          "tactical": {
+            "awareness": 9.9,
+            "positioning": 7.6,
+            "utility": 14.3,
+            "looting": 8.8,
+            "decision": 8.1,
+            "comms": 7.4
+          },
+          "mental": {
+            "composure": 7,
+            "teamwork": 9,
+            "determination": 7.9
+          },
+          "hidden": {
+            "consistency": 5.7,
+            "bigMatch": 6.2,
+            "injuryProne": 5
+          },
+          "condition": {
+            "stamina": 9.9,
+            "form": 0,
+            "fatigue": 0
+          },
+          "roleProficiency": {
+            "Rusher": 5.2,
+            "SecondRusher": 5.2,
+            "Sniper": 11.2,
+            "Support": 5.2,
+            "Grenadier": 5.2
+          },
+          "skillProficiency": {
+            "sk_dash": 6.2,
+            "sk_shield": 6.2,
+            "sk_scan": 10.7,
+            "sk_heal": 6.2,
+            "sk_deploy": 6.2
+          }
+        },
+        {
+          "playerId": "p_074",
+          "name": "Nox",
+          "age": 21,
+          "region": "BR",
+          "mechanical": {
+            "aim": 9.3,
+            "recoil": 8.6,
+            "reflex": 12.7,
+            "movement": 8.4,
+            "cqc": 5.7,
+            "longRange": 8
+          },
+          "tactical": {
+            "awareness": 7,
+            "positioning": 5.5,
+            "utility": 11.2,
+            "looting": 7.9,
+            "decision": 8.2,
+            "comms": 13.9
+          },
+          "mental": {
+            "composure": 11.3,
+            "teamwork": 8.8,
+            "determination": 5.6
+          },
+          "hidden": {
+            "consistency": 7,
+            "bigMatch": 9.4,
+            "injuryProne": 11.1
+          },
+          "condition": {
+            "stamina": 9.7,
+            "form": 0,
+            "fatigue": 0
+          },
+          "roleProficiency": {
+            "Rusher": 5.2,
+            "SecondRusher": 5.2,
+            "Sniper": 5.2,
+            "Support": 11.2,
+            "Grenadier": 5.2
+          },
+          "skillProficiency": {
+            "sk_dash": 6.2,
+            "sk_shield": 6.2,
+            "sk_scan": 6.2,
+            "sk_heal": 10.7,
+            "sk_deploy": 6.2
+          }
+        },
+        {
+          "playerId": "p_075",
+          "name": "Vex",
+          "age": 17,
+          "region": "BR",
+          "mechanical": {
+            "aim": 9,
+            "recoil": 9.9,
+            "reflex": 10.4,
+            "movement": 5.4,
+            "cqc": 8,
+            "longRange": 9.8
+          },
+          "tactical": {
+            "awareness": 12.6,
+            "positioning": 9.9,
+            "utility": 10.8,
+            "looting": 6.2,
+            "decision": 5.6,
+            "comms": 9.1
+          },
+          "mental": {
+            "composure": 9.9,
+            "teamwork": 8.7,
+            "determination": 6.7
+          },
+          "hidden": {
+            "consistency": 8.5,
+            "bigMatch": 9.2,
+            "injuryProne": 2.9
+          },
+          "condition": {
+            "stamina": 9.4,
+            "form": 0,
+            "fatigue": 0
+          },
+          "roleProficiency": {
+            "Rusher": 5.2,
+            "SecondRusher": 5.2,
+            "Sniper": 5.2,
+            "Support": 5.2,
+            "Grenadier": 11.2
+          },
+          "skillProficiency": {
+            "sk_dash": 6.2,
+            "sk_shield": 6.2,
+            "sk_scan": 6.2,
+            "sk_heal": 6.2,
+            "sk_deploy": 10.7
+          }
+        }
+      ]
+    },
+    {
+      "teamId": "t_allglory",
+      "name": "All Glory Gaming",
+      "region": "LATAM",
+      "colorHex": "#118AB2",
+      "lineup": {
+        "starters": [
+          {
+            "playerId": "p_076",
+            "role": "Rusher",
+            "active": "sk_dash",
+            "passives": [
+              "sk_p_aim",
+              "sk_p_move",
+              "sk_p_armor"
+            ]
+          },
+          {
+            "playerId": "p_077",
+            "role": "SecondRusher",
+            "active": "sk_shield",
+            "passives": [
+              "sk_p_armor",
+              "sk_p_gloo",
+              "sk_p_heal"
+            ]
+          },
+          {
+            "playerId": "p_078",
+            "role": "Sniper",
+            "active": "sk_scan",
+            "passives": [
+              "sk_p_heal",
+              "sk_p_loot",
+              "sk_p_aim"
+            ]
+          },
+          {
+            "playerId": "p_079",
+            "role": "Support",
+            "active": "sk_heal",
+            "passives": [
+              "sk_p_aim",
+              "sk_p_move",
+              "sk_p_armor"
+            ]
+          }
+        ],
+        "sub": "p_080",
+        "igl": "p_079"
+      },
+      "playbook": {
+        "drop": "Hot",
+        "rotation": "Edge",
+        "engage": "Avoid",
+        "endgame": "HighGround"
+      },
+      "synergy": 49,
+      "players": [
+        {
+          "playerId": "p_076",
+          "name": "Jax",
+          "age": 18,
+          "region": "LATAM",
+          "mechanical": {
+            "aim": 6.2,
+            "recoil": 8.1,
+            "reflex": 8.4,
+            "movement": 9.8,
+            "cqc": 8.6,
+            "longRange": 9.9
+          },
+          "tactical": {
+            "awareness": 6.9,
+            "positioning": 5.7,
+            "utility": 6.8,
+            "looting": 6.4,
+            "decision": 6.6,
+            "comms": 8.8
+          },
+          "mental": {
+            "composure": 8.8,
+            "teamwork": 11.2,
+            "determination": 8.4
+          },
+          "hidden": {
+            "consistency": 8.7,
+            "bigMatch": 8.4,
+            "injuryProne": 5.2
+          },
+          "condition": {
+            "stamina": 3.8,
+            "form": 0,
+            "fatigue": 0
+          },
+          "roleProficiency": {
+            "Rusher": 11.2,
+            "SecondRusher": 5.2,
+            "Sniper": 5.2,
+            "Support": 5.2,
+            "Grenadier": 5.2
+          },
+          "skillProficiency": {
+            "sk_dash": 10.7,
+            "sk_shield": 6.2,
+            "sk_scan": 6.2,
+            "sk_heal": 6.2,
+            "sk_deploy": 6.2
+          }
+        },
+        {
+          "playerId": "p_077",
+          "name": "Pyke",
+          "age": 23,
+          "region": "LATAM",
+          "mechanical": {
+            "aim": 10.7,
+            "recoil": 11.7,
+            "reflex": 8.5,
+            "movement": 5.6,
+            "cqc": 11.9,
+            "longRange": 7.3
+          },
+          "tactical": {
+            "awareness": 12.3,
+            "positioning": 6,
+            "utility": 5.8,
+            "looting": 9,
+            "decision": 8,
+            "comms": 7.2
+          },
+          "mental": {
+            "composure": 4.8,
+            "teamwork": 12.1,
+            "determination": 9.6
+          },
+          "hidden": {
+            "consistency": 8.3,
+            "bigMatch": 11.5,
+            "injuryProne": 8.8
+          },
+          "condition": {
+            "stamina": 7.6,
+            "form": 0,
+            "fatigue": 0
+          },
+          "roleProficiency": {
+            "Rusher": 5.2,
+            "SecondRusher": 11.2,
+            "Sniper": 5.2,
+            "Support": 5.2,
+            "Grenadier": 5.2
+          },
+          "skillProficiency": {
+            "sk_dash": 6.2,
+            "sk_shield": 10.7,
+            "sk_scan": 6.2,
+            "sk_heal": 6.2,
+            "sk_deploy": 6.2
+          }
+        },
+        {
+          "playerId": "p_078",
+          "name": "Sion",
+          "age": 25,
+          "region": "LATAM",
+          "mechanical": {
+            "aim": 7.7,
+            "recoil": 11,
+            "reflex": 10.9,
+            "movement": 8.4,
+            "cqc": 5.6,
+            "longRange": 9.8
+          },
+          "tactical": {
+            "awareness": 5.2,
+            "positioning": 11.6,
+            "utility": 5.5,
+            "looting": 7.5,
+            "decision": 6.2,
+            "comms": 6.2
+          },
+          "mental": {
+            "composure": 7.6,
+            "teamwork": 5.9,
+            "determination": 7.9
+          },
+          "hidden": {
+            "consistency": 8.1,
+            "bigMatch": 10.9,
+            "injuryProne": 5.6
+          },
+          "condition": {
+            "stamina": 10.2,
+            "form": 0,
+            "fatigue": 0
+          },
+          "roleProficiency": {
+            "Rusher": 5.2,
+            "SecondRusher": 5.2,
+            "Sniper": 11.2,
+            "Support": 5.2,
+            "Grenadier": 5.2
+          },
+          "skillProficiency": {
+            "sk_dash": 6.2,
+            "sk_shield": 6.2,
+            "sk_scan": 10.7,
+            "sk_heal": 6.2,
+            "sk_deploy": 6.2
+          }
+        },
+        {
+          "playerId": "p_079",
+          "name": "Talon",
+          "age": 17,
+          "region": "LATAM",
+          "mechanical": {
+            "aim": 5.9,
+            "recoil": 10.2,
+            "reflex": 7.6,
+            "movement": 7.2,
+            "cqc": 9.1,
+            "longRange": 6.2
+          },
+          "tactical": {
+            "awareness": 5.9,
+            "positioning": 7.1,
+            "utility": 8.9,
+            "looting": 7.8,
+            "decision": 11.1,
+            "comms": 13.8
+          },
+          "mental": {
+            "composure": 5.7,
+            "teamwork": 9,
+            "determination": 8.1
+          },
+          "hidden": {
+            "consistency": 4,
+            "bigMatch": 4.9,
+            "injuryProne": 3
+          },
+          "condition": {
+            "stamina": 9.3,
+            "form": 0,
+            "fatigue": 0
+          },
+          "roleProficiency": {
+            "Rusher": 5.2,
+            "SecondRusher": 5.2,
+            "Sniper": 5.2,
+            "Support": 11.2,
+            "Grenadier": 5.2
+          },
+          "skillProficiency": {
+            "sk_dash": 6.2,
+            "sk_shield": 6.2,
+            "sk_scan": 6.2,
+            "sk_heal": 10.7,
+            "sk_deploy": 6.2
+          }
+        },
+        {
+          "playerId": "p_080",
+          "name": "Ekko",
+          "age": 25,
+          "region": "LATAM",
+          "mechanical": {
+            "aim": 8.5,
+            "recoil": 6.4,
+            "reflex": 5.7,
+            "movement": 9.5,
+            "cqc": 5.4,
+            "longRange": 9.7
+          },
+          "tactical": {
+            "awareness": 10.5,
+            "positioning": 8.6,
+            "utility": 5.5,
+            "looting": 10.9,
+            "decision": 7.5,
+            "comms": 10.2
+          },
+          "mental": {
+            "composure": 9.8,
+            "teamwork": 7.8,
+            "determination": 6.1
+          },
+          "hidden": {
+            "consistency": 9.2,
+            "bigMatch": 5.7,
+            "injuryProne": 4.1
+          },
+          "condition": {
+            "stamina": 5.6,
+            "form": 0,
+            "fatigue": 0
+          },
+          "roleProficiency": {
+            "Rusher": 5.2,
+            "SecondRusher": 5.2,
+            "Sniper": 5.2,
+            "Support": 5.2,
+            "Grenadier": 11.2
+          },
+          "skillProficiency": {
+            "sk_dash": 6.2,
+            "sk_shield": 6.2,
+            "sk_scan": 6.2,
+            "sk_heal": 6.2,
+            "sk_deploy": 10.7
+          }
+        }
+      ]
+    },
+    {
+      "teamId": "t_ignite",
+      "name": "Ignite Esports",
+      "region": "LATAM",
+      "colorHex": "#EF476F",
+      "lineup": {
+        "starters": [
+          {
+            "playerId": "p_081",
+            "role": "Rusher",
+            "active": "sk_dash",
+            "passives": [
+              "sk_p_aim",
+              "sk_p_move",
+              "sk_p_armor"
+            ]
+          },
+          {
+            "playerId": "p_082",
+            "role": "SecondRusher",
+            "active": "sk_shield",
+            "passives": [
+              "sk_p_armor",
+              "sk_p_gloo",
+              "sk_p_heal"
+            ]
+          },
+          {
+            "playerId": "p_083",
+            "role": "Sniper",
+            "active": "sk_scan",
+            "passives": [
+              "sk_p_heal",
+              "sk_p_loot",
+              "sk_p_aim"
+            ]
+          },
+          {
+            "playerId": "p_084",
+            "role": "Support",
+            "active": "sk_heal",
+            "passives": [
+              "sk_p_aim",
+              "sk_p_move",
+              "sk_p_armor"
+            ]
+          }
+        ],
+        "sub": "p_085",
+        "igl": "p_084"
+      },
+      "playbook": {
+        "drop": "Flex",
+        "rotation": "Late",
+        "engage": "Avoid",
+        "endgame": "Building"
+      },
+      "synergy": 55,
+      "players": [
+        {
+          "playerId": "p_081",
+          "name": "Kael",
+          "age": 24,
+          "region": "LATAM",
+          "mechanical": {
+            "aim": 9.1,
+            "recoil": 5.6,
+            "reflex": 10.2,
+            "movement": 10.3,
+            "cqc": 12.8,
+            "longRange": 10.5
+          },
+          "tactical": {
+            "awareness": 5.4,
+            "positioning": 9.6,
+            "utility": 3.9,
+            "looting": 4.3,
+            "decision": 8.5,
+            "comms": 6.8
+          },
+          "mental": {
+            "composure": 8.1,
+            "teamwork": 9,
+            "determination": 7.3
+          },
+          "hidden": {
+            "consistency": 6.3,
+            "bigMatch": 5.3,
+            "injuryProne": 3.5
+          },
+          "condition": {
+            "stamina": 7.4,
+            "form": 0,
+            "fatigue": 0
+          },
+          "roleProficiency": {
+            "Rusher": 11.2,
+            "SecondRusher": 5.2,
+            "Sniper": 5.2,
+            "Support": 5.2,
+            "Grenadier": 5.2
+          },
+          "skillProficiency": {
+            "sk_dash": 10.7,
+            "sk_shield": 6.2,
+            "sk_scan": 6.2,
+            "sk_heal": 6.2,
+            "sk_deploy": 6.2
+          }
+        },
+        {
+          "playerId": "p_082",
+          "name": "Dante",
+          "age": 18,
+          "region": "LATAM",
+          "mechanical": {
+            "aim": 5.6,
+            "recoil": 8,
+            "reflex": 9.5,
+            "movement": 9.3,
+            "cqc": 6.9,
+            "longRange": 10.3
+          },
+          "tactical": {
+            "awareness": 8.1,
+            "positioning": 7.5,
+            "utility": 10.3,
+            "looting": 12.2,
+            "decision": 7.9,
+            "comms": 7.7
+          },
+          "mental": {
+            "composure": 7,
+            "teamwork": 11.6,
+            "determination": 9.8
+          },
+          "hidden": {
+            "consistency": 8.3,
+            "bigMatch": 7.8,
+            "injuryProne": 9.5
+          },
+          "condition": {
+            "stamina": 9.2,
+            "form": 0,
+            "fatigue": 0
+          },
+          "roleProficiency": {
+            "Rusher": 5.2,
+            "SecondRusher": 11.2,
+            "Sniper": 5.2,
+            "Support": 5.2,
+            "Grenadier": 5.2
+          },
+          "skillProficiency": {
+            "sk_dash": 6.2,
+            "sk_shield": 10.7,
+            "sk_scan": 6.2,
+            "sk_heal": 6.2,
+            "sk_deploy": 6.2
+          }
+        },
+        {
+          "playerId": "p_083",
+          "name": "Vergil",
+          "age": 19,
+          "region": "LATAM",
+          "mechanical": {
+            "aim": 8.2,
+            "recoil": 9.5,
+            "reflex": 6.7,
+            "movement": 8.2,
+            "cqc": 9.1,
+            "longRange": 9.6
+          },
+          "tactical": {
+            "awareness": 6.9,
+            "positioning": 7.1,
+            "utility": 8.6,
+            "looting": 9.2,
+            "decision": 8.7,
+            "comms": 6.9
+          },
+          "mental": {
+            "composure": 9.4,
+            "teamwork": 8.9,
+            "determination": 8.6
+          },
+          "hidden": {
+            "consistency": 9.1,
+            "bigMatch": 10.1,
+            "injuryProne": 7.3
+          },
+          "condition": {
+            "stamina": 4.7,
+            "form": 0,
+            "fatigue": 0
+          },
+          "roleProficiency": {
+            "Rusher": 5.2,
+            "SecondRusher": 5.2,
+            "Sniper": 11.2,
+            "Support": 5.2,
+            "Grenadier": 5.2
+          },
+          "skillProficiency": {
+            "sk_dash": 6.2,
+            "sk_shield": 6.2,
+            "sk_scan": 10.7,
+            "sk_heal": 6.2,
+            "sk_deploy": 6.2
+          }
+        },
+        {
+          "playerId": "p_084",
+          "name": "Nero",
+          "age": 18,
+          "region": "LATAM",
+          "mechanical": {
+            "aim": 2.6,
+            "recoil": 10.7,
+            "reflex": 10.6,
+            "movement": 4.8,
+            "cqc": 7.8,
+            "longRange": 9.2
+          },
+          "tactical": {
+            "awareness": 7.1,
+            "positioning": 10.2,
+            "utility": 8.7,
+            "looting": 6.1,
+            "decision": 6.4,
+            "comms": 12.1
+          },
+          "mental": {
+            "composure": 6.9,
+            "teamwork": 8.1,
+            "determination": 5.9
+          },
+          "hidden": {
+            "consistency": 8.2,
+            "bigMatch": 6.9,
+            "injuryProne": 10.3
+          },
+          "condition": {
+            "stamina": 6,
+            "form": 0,
+            "fatigue": 0
+          },
+          "roleProficiency": {
+            "Rusher": 5.2,
+            "SecondRusher": 5.2,
+            "Sniper": 5.2,
+            "Support": 11.2,
+            "Grenadier": 5.2
+          },
+          "skillProficiency": {
+            "sk_dash": 6.2,
+            "sk_shield": 6.2,
+            "sk_scan": 6.2,
+            "sk_heal": 10.7,
+            "sk_deploy": 6.2
+          }
+        },
+        {
+          "playerId": "p_085",
+          "name": "Cloud",
+          "age": 18,
+          "region": "LATAM",
+          "mechanical": {
+            "aim": 8.6,
+            "recoil": 8.6,
+            "reflex": 9,
+            "movement": 9.3,
+            "cqc": 11.9,
+            "longRange": 10.3
+          },
+          "tactical": {
+            "awareness": 12.6,
+            "positioning": 6.4,
+            "utility": 6.4,
+            "looting": 6,
+            "decision": 11.2,
+            "comms": 7.3
+          },
+          "mental": {
+            "composure": 9.9,
+            "teamwork": 3.8,
+            "determination": 9.3
+          },
+          "hidden": {
+            "consistency": 8.9,
+            "bigMatch": 8,
+            "injuryProne": 5.5
+          },
+          "condition": {
+            "stamina": 9.7,
+            "form": 0,
+            "fatigue": 0
+          },
+          "roleProficiency": {
+            "Rusher": 5.2,
+            "SecondRusher": 5.2,
+            "Sniper": 5.2,
+            "Support": 5.2,
+            "Grenadier": 11.2
+          },
+          "skillProficiency": {
+            "sk_dash": 6.2,
+            "sk_shield": 6.2,
+            "sk_scan": 6.2,
+            "sk_heal": 6.2,
+            "sk_deploy": 10.7
+          }
+        }
+      ]
+    },
+    {
+      "teamId": "t_alpha",
+      "name": "Alpha7 Lite",
+      "region": "BR",
+      "colorHex": "#8AC926",
+      "lineup": {
+        "starters": [
+          {
+            "playerId": "p_086",
+            "role": "Rusher",
+            "active": "sk_dash",
+            "passives": [
+              "sk_p_aim",
+              "sk_p_move",
+              "sk_p_armor"
+            ]
+          },
+          {
+            "playerId": "p_087",
+            "role": "SecondRusher",
+            "active": "sk_shield",
+            "passives": [
+              "sk_p_armor",
+              "sk_p_gloo",
+              "sk_p_heal"
+            ]
+          },
+          {
+            "playerId": "p_088",
+            "role": "Sniper",
+            "active": "sk_scan",
+            "passives": [
+              "sk_p_heal",
+              "sk_p_loot",
+              "sk_p_aim"
+            ]
+          },
+          {
+            "playerId": "p_089",
+            "role": "Support",
+            "active": "sk_heal",
+            "passives": [
+              "sk_p_aim",
+              "sk_p_move",
+              "sk_p_armor"
+            ]
+          }
+        ],
+        "sub": "p_090",
+        "igl": "p_089"
+      },
+      "playbook": {
+        "drop": "Cold",
+        "rotation": "Late",
+        "engage": "Avoid",
+        "endgame": "GlooFort"
+      },
+      "synergy": 47,
+      "players": [
+        {
+          "playerId": "p_086",
+          "name": "Seph",
+          "age": 18,
+          "region": "BR",
+          "mechanical": {
+            "aim": 6.6,
+            "recoil": 6.5,
+            "reflex": 10.3,
+            "movement": 7.8,
+            "cqc": 11.1,
+            "longRange": 7.1
+          },
+          "tactical": {
+            "awareness": 7.6,
+            "positioning": 6,
+            "utility": 12.2,
+            "looting": 8.1,
+            "decision": 7.7,
+            "comms": 10.5
+          },
+          "mental": {
+            "composure": 9.4,
+            "teamwork": 8.3,
+            "determination": 8.8
+          },
+          "hidden": {
+            "consistency": 5.8,
+            "bigMatch": 9.8,
+            "injuryProne": 6.2
+          },
+          "condition": {
+            "stamina": 10.3,
+            "form": 0,
+            "fatigue": 0
+          },
+          "roleProficiency": {
+            "Rusher": 11.2,
+            "SecondRusher": 5.2,
+            "Sniper": 5.2,
+            "Support": 5.2,
+            "Grenadier": 5.2
+          },
+          "skillProficiency": {
+            "sk_dash": 10.7,
+            "sk_shield": 6.2,
+            "sk_scan": 6.2,
+            "sk_heal": 6.2,
+            "sk_deploy": 6.2
+          }
+        },
+        {
+          "playerId": "p_087",
+          "name": "ZackF",
+          "age": 22,
+          "region": "BR",
+          "mechanical": {
+            "aim": 7.8,
+            "recoil": 9.7,
+            "reflex": 11.1,
+            "movement": 7.5,
+            "cqc": 6.1,
+            "longRange": 6.4
+          },
+          "tactical": {
+            "awareness": 10,
+            "positioning": 9.1,
+            "utility": 10,
+            "looting": 6.4,
+            "decision": 5,
+            "comms": 6.7
+          },
+          "mental": {
+            "composure": 5.1,
+            "teamwork": 8.4,
+            "determination": 12.3
+          },
+          "hidden": {
+            "consistency": 9.7,
+            "bigMatch": 10.5,
+            "injuryProne": 5.3
+          },
+          "condition": {
+            "stamina": 7,
+            "form": 0,
+            "fatigue": 0
+          },
+          "roleProficiency": {
+            "Rusher": 5.2,
+            "SecondRusher": 11.2,
+            "Sniper": 5.2,
+            "Support": 5.2,
+            "Grenadier": 5.2
+          },
+          "skillProficiency": {
+            "sk_dash": 6.2,
+            "sk_shield": 10.7,
+            "sk_scan": 6.2,
+            "sk_heal": 6.2,
+            "sk_deploy": 6.2
+          }
+        },
+        {
+          "playerId": "p_088",
+          "name": "Tidus",
+          "age": 21,
+          "region": "BR",
+          "mechanical": {
+            "aim": 6.1,
+            "recoil": 8.2,
+            "reflex": 5,
+            "movement": 9.5,
+            "cqc": 6.7,
+            "longRange": 8.4
+          },
+          "tactical": {
+            "awareness": 9.2,
+            "positioning": 4.1,
+            "utility": 7.9,
+            "looting": 6.9,
+            "decision": 6.1,
+            "comms": 9.9
+          },
+          "mental": {
+            "composure": 10,
+            "teamwork": 11.1,
+            "determination": 10.4
+          },
+          "hidden": {
+            "consistency": 8,
+            "bigMatch": 8.9,
+            "injuryProne": 6.7
+          },
+          "condition": {
+            "stamina": 8.4,
+            "form": 0,
+            "fatigue": 0
+          },
+          "roleProficiency": {
+            "Rusher": 5.2,
+            "SecondRusher": 5.2,
+            "Sniper": 11.2,
+            "Support": 5.2,
+            "Grenadier": 5.2
+          },
+          "skillProficiency": {
+            "sk_dash": 6.2,
+            "sk_shield": 6.2,
+            "sk_scan": 10.7,
+            "sk_heal": 6.2,
+            "sk_deploy": 6.2
+          }
+        },
+        {
+          "playerId": "p_089",
+          "name": "Auron",
+          "age": 21,
+          "region": "BR",
+          "mechanical": {
+            "aim": 8.1,
+            "recoil": 11.9,
+            "reflex": 8,
+            "movement": 5.9,
+            "cqc": 9.8,
+            "longRange": 6
+          },
+          "tactical": {
+            "awareness": 9.3,
+            "positioning": 6,
+            "utility": 7.7,
+            "looting": 8.9,
+            "decision": 10.6,
+            "comms": 9.8
+          },
+          "mental": {
+            "composure": 11,
+            "teamwork": 9.4,
+            "determination": 6
+          },
+          "hidden": {
+            "consistency": 10.1,
+            "bigMatch": 8,
+            "injuryProne": 6.7
+          },
+          "condition": {
+            "stamina": 7.9,
+            "form": 0,
+            "fatigue": 0
+          },
+          "roleProficiency": {
+            "Rusher": 5.2,
+            "SecondRusher": 5.2,
+            "Sniper": 5.2,
+            "Support": 11.2,
+            "Grenadier": 5.2
+          },
+          "skillProficiency": {
+            "sk_dash": 6.2,
+            "sk_shield": 6.2,
+            "sk_scan": 6.2,
+            "sk_heal": 10.7,
+            "sk_deploy": 6.2
+          }
+        },
+        {
+          "playerId": "p_090",
+          "name": "Balth",
+          "age": 20,
+          "region": "BR",
+          "mechanical": {
+            "aim": 5.9,
+            "recoil": 6.8,
+            "reflex": 7.6,
+            "movement": 7,
+            "cqc": 6.9,
+            "longRange": 7.8
+          },
+          "tactical": {
+            "awareness": 7.5,
+            "positioning": 9.4,
+            "utility": 8.8,
+            "looting": 7.7,
+            "decision": 6.6,
+            "comms": 8.5
+          },
+          "mental": {
+            "composure": 9.6,
+            "teamwork": 8.4,
+            "determination": 8
+          },
+          "hidden": {
+            "consistency": 7.7,
+            "bigMatch": 6.3,
+            "injuryProne": 3.5
+          },
+          "condition": {
+            "stamina": 7.1,
+            "form": 0,
+            "fatigue": 0
+          },
+          "roleProficiency": {
+            "Rusher": 5.2,
+            "SecondRusher": 5.2,
+            "Sniper": 5.2,
+            "Support": 5.2,
+            "Grenadier": 11.2
+          },
+          "skillProficiency": {
+            "sk_dash": 6.2,
+            "sk_shield": 6.2,
+            "sk_scan": 6.2,
+            "sk_heal": 6.2,
+            "sk_deploy": 10.7
+          }
+        }
+      ]
+    }
+  ]
+}

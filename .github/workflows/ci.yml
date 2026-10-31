@@ -1,0 +1,31 @@
+name: FFM CI
+
+on:
+  push:
+    branches: [ main, "wp/**" ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Setup .NET 8
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '8.0.x'
+      - name: Verify Sim and Meta do not reference GodotSharp
+        run: |
+          if grep -rn "GodotSharp" src/FFM.Sim/ src/FFM.Meta/; then
+            echo "Error: FFM.Sim or FFM.Meta must not reference GodotSharp!"
+            exit 1
+          fi
+      - name: Build Core Solution (Zero Warnings)
+        run: dotnet build FFM.sln --configuration Release -warnaserror
+      - name: Run Unit Tests
+        run: dotnet test FFM.sln --configuration Release --no-build --verbosity normal
+      - name: Run Headless Runner Smoke Test
+        run: dotnet run --project src/FFM.Sim.Runner/FFM.Sim.Runner.csproj --configuration Release --no-build -- --smoke
+      - name: Run Asset and Config Lint
+        run: dotnet run --project src/FFM.Tools/FFM.Tools.csproj --configuration Release --no-build -- --lint

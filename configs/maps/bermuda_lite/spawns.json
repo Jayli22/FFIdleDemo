@@ -1,0 +1,426 @@
+{
+  "lootClusters": [
+    {
+      "clusterId": 1,
+      "poiId": 1,
+      "x": 1050.7812,
+      "y": 1042.9688,
+      "richness": 1.5
+    },
+    {
+      "clusterId": 2,
+      "poiId": 1,
+      "x": 1019.53125,
+      "y": 1089.8438,
+      "richness": 1.5
+    },
+    {
+      "clusterId": 3,
+      "poiId": 1,
+      "x": 988.28125,
+      "y": 1042.9688,
+      "richness": 1.5
+    },
+    {
+      "clusterId": 4,
+      "poiId": 1,
+      "x": 988.28125,
+      "y": 988.28125,
+      "richness": 1.5
+    },
+    {
+      "clusterId": 5,
+      "poiId": 1,
+      "x": 1035.1562,
+      "y": 1011.71875,
+      "richness": 1.5
+    },
+    {
+      "clusterId": 6,
+      "poiId": 2,
+      "x": 589.84375,
+      "y": 1183.5938,
+      "richness": 1.45
+    },
+    {
+      "clusterId": 7,
+      "poiId": 2,
+      "x": 558.59375,
+      "y": 1230.4688,
+      "richness": 1.45
+    },
+    {
+      "clusterId": 8,
+      "poiId": 2,
+      "x": 527.34375,
+      "y": 1183.5938,
+      "richness": 1.45
+    },
+    {
+      "clusterId": 9,
+      "poiId": 2,
+      "x": 527.34375,
+      "y": 1128.9062,
+      "richness": 1.45
+    },
+    {
+      "clusterId": 10,
+      "poiId": 2,
+      "x": 574.21875,
+      "y": 1152.3438,
+      "richness": 1.45
+    },
+    {
+      "clusterId": 11,
+      "poiId": 3,
+      "x": 1394.5312,
+      "y": 1339.8438,
+      "richness": 1.25
+    },
+    {
+      "clusterId": 12,
+      "poiId": 3,
+      "x": 1324.2188,
+      "y": 1371.0938,
+      "richness": 1.25
+    },
+    {
+      "clusterId": 13,
+      "poiId": 3,
+      "x": 1355.4688,
+      "y": 1300.7812,
+      "richness": 1.25
+    },
+    {
+      "clusterId": 14,
+      "poiId": 4,
+      "x": 1613.2812,
+      "y": 519.53125,
+      "richness": 1.35
+    },
+    {
+      "clusterId": 15,
+      "poiId": 4,
+      "x": 1582.0312,
+      "y": 566.40625,
+      "richness": 1.35
+    },
+    {
+      "clusterId": 16,
+      "poiId": 4,
+      "x": 1550.7812,
+      "y": 519.53125,
+      "richness": 1.35
+    },
+    {
+      "clusterId": 17,
+      "poiId": 4,
+      "x": 1550.7812,
+      "y": 464.84375,
+      "richness": 1.35
+    },
+    {
+      "clusterId": 18,
+      "poiId": 4,
+      "x": 1597.6562,
+      "y": 488.28125,
+      "richness": 1.35
+    },
+    {
+      "clusterId": 19,
+      "poiId": 5,
+      "x": 988.28125,
+      "y": 1621.0938,
+      "richness": 1.2
+    },
+    {
+      "clusterId": 20,
+      "poiId": 5,
+      "x": 917.96875,
+      "y": 1652.3438,
+      "richness": 1.2
+    },
+    {
+      "clusterId": 21,
+      "poiId": 5,
+      "x": 949.21875,
+      "y": 1582.0312,
+      "richness": 1.2
+    },
+    {
+      "clusterId": 22,
+      "poiId": 6,
+      "x": 714.84375,
+      "y": 1519.5312,
+      "richness": 1.35
+    },
+    {
+      "clusterId": 23,
+      "poiId": 6,
+      "x": 683.59375,
+      "y": 1566.4062,
+      "richness": 1.35
+    },
+    {
+      "clusterId": 24,
+      "poiId": 6,
+      "x": 652.34375,
+      "y": 1519.5312,
+      "richness": 1.35
+    },
+    {
+      "clusterId": 25,
+      "poiId": 6,
+      "x": 652.34375,
+      "y": 1464.8438,
+      "richness": 1.35
+    },
+    {
+      "clusterId": 26,
+      "poiId": 6,
+      "x": 699.21875,
+      "y": 1488.2812,
+      "richness": 1.35
+    },
+    {
+      "clusterId": 27,
+      "poiId": 7,
+      "x": 1011.71875,
+      "y": 738.28125,
+      "richness": 1.3
+    },
+    {
+      "clusterId": 28,
+      "poiId": 7,
+      "x": 980.46875,
+      "y": 785.15625,
+      "richness": 1.3
+    },
+    {
+      "clusterId": 29,
+      "poiId": 7,
+      "x": 949.21875,
+      "y": 738.28125,
+      "richness": 1.3
+    },
+    {
+      "clusterId": 30,
+      "poiId": 7,
+      "x": 949.21875,
+      "y": 683.59375,
+      "richness": 1.3
+    },
+    {
+      "clusterId": 31,
+      "poiId": 7,
+      "x": 996.09375,
+      "y": 707.03125,
+      "richness": 1.3
+    },
+    {
+      "clusterId": 32,
+      "poiId": 8,
+      "x": 667.96875,
+      "y": 683.59375,
+      "richness": 1.15
+    },
+    {
+      "clusterId": 33,
+      "poiId": 8,
+      "x": 597.65625,
+      "y": 714.84375,
+      "richness": 1.15
+    },
+    {
+      "clusterId": 34,
+      "poiId": 8,
+      "x": 628.90625,
+      "y": 644.53125,
+      "richness": 1.15
+    },
+    {
+      "clusterId": 35,
+      "poiId": 9,
+      "x": 1449.2188,
+      "y": 1652.3438,
+      "richness": 1.1
+    },
+    {
+      "clusterId": 36,
+      "poiId": 9,
+      "x": 1378.9062,
+      "y": 1683.5938,
+      "richness": 1.1
+    },
+    {
+      "clusterId": 37,
+      "poiId": 9,
+      "x": 1410.1562,
+      "y": 1613.2812,
+      "richness": 1.1
+    },
+    {
+      "clusterId": 38,
+      "poiId": 10,
+      "x": 1714.8438,
+      "y": 1519.5312,
+      "richness": 1.3
+    },
+    {
+      "clusterId": 39,
+      "poiId": 10,
+      "x": 1644.5312,
+      "y": 1550.7812,
+      "richness": 1.3
+    },
+    {
+      "clusterId": 40,
+      "poiId": 10,
+      "x": 1675.7812,
+      "y": 1480.4688,
+      "richness": 1.3
+    },
+    {
+      "clusterId": 41,
+      "poiId": 11,
+      "x": 410.15625,
+      "y": 519.53125,
+      "richness": 1.35
+    },
+    {
+      "clusterId": 42,
+      "poiId": 11,
+      "x": 339.84375,
+      "y": 550.78125,
+      "richness": 1.35
+    },
+    {
+      "clusterId": 43,
+      "poiId": 11,
+      "x": 371.09375,
+      "y": 480.46875,
+      "richness": 1.35
+    },
+    {
+      "clusterId": 44,
+      "poiId": 12,
+      "x": 472.65625,
+      "y": 1457.0312,
+      "richness": 1.15
+    },
+    {
+      "clusterId": 45,
+      "poiId": 12,
+      "x": 402.34375,
+      "y": 1488.2812,
+      "richness": 1.15
+    },
+    {
+      "clusterId": 46,
+      "poiId": 12,
+      "x": 433.59375,
+      "y": 1417.9688,
+      "richness": 1.15
+    },
+    {
+      "clusterId": 47,
+      "poiId": 13,
+      "x": 1292.9688,
+      "y": 457.03125,
+      "richness": 1.15
+    },
+    {
+      "clusterId": 48,
+      "poiId": 13,
+      "x": 1222.6562,
+      "y": 488.28125,
+      "richness": 1.15
+    },
+    {
+      "clusterId": 49,
+      "poiId": 13,
+      "x": 1253.9062,
+      "y": 417.96875,
+      "richness": 1.15
+    },
+    {
+      "clusterId": 50,
+      "poiId": 14,
+      "x": 394.53125,
+      "y": 957.03125,
+      "richness": 1.1
+    },
+    {
+      "clusterId": 51,
+      "poiId": 14,
+      "x": 324.21875,
+      "y": 988.28125,
+      "richness": 1.1
+    },
+    {
+      "clusterId": 52,
+      "poiId": 14,
+      "x": 355.46875,
+      "y": 917.96875,
+      "richness": 1.1
+    }
+  ],
+  "vehicles": [
+    {
+      "vehicleId": 1,
+      "x": 1065,
+      "y": 1005,
+      "maxHp": 450,
+      "speedMultiplier": 2
+    },
+    {
+      "vehicleId": 2,
+      "x": 605,
+      "y": 1145,
+      "maxHp": 450,
+      "speedMultiplier": 2
+    },
+    {
+      "vehicleId": 3,
+      "x": 1405,
+      "y": 1305,
+      "maxHp": 450,
+      "speedMultiplier": 2
+    },
+    {
+      "vehicleId": 4,
+      "x": 1625,
+      "y": 485,
+      "maxHp": 450,
+      "speedMultiplier": 2
+    },
+    {
+      "vehicleId": 5,
+      "x": 1005,
+      "y": 1585,
+      "maxHp": 450,
+      "speedMultiplier": 2
+    },
+    {
+      "vehicleId": 6,
+      "x": 725,
+      "y": 1485,
+      "maxHp": 450,
+      "speedMultiplier": 2
+    },
+    {
+      "vehicleId": 7,
+      "x": 1025,
+      "y": 705,
+      "maxHp": 450,
+      "speedMultiplier": 2
+    },
+    {
+      "vehicleId": 8,
+      "x": 685,
+      "y": 645,
+      "maxHp": 450,
+      "speedMultiplier": 2
+    }
+  ]
+}

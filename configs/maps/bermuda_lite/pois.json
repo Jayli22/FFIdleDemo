@@ -1,0 +1,631 @@
+{
+  "mapId": "bermuda_lite",
+  "sizeMeters": 2000,
+  "gridDimension": 256,
+  "pois": [
+    {
+      "poiId": 1,
+      "id": "poi_peak",
+      "name": "Peak",
+      "centerX": 1020,
+      "centerY": 1040,
+      "radiusMeters": 125,
+      "lootTierWeight": 1.5,
+      "isHotspot": true,
+      "heightLevel": 2
+    },
+    {
+      "poiId": 2,
+      "id": "poi_clocktower",
+      "name": "Clock Tower",
+      "centerX": 560,
+      "centerY": 1180,
+      "radiusMeters": 115,
+      "lootTierWeight": 1.45,
+      "isHotspot": true,
+      "heightLevel": 1
+    },
+    {
+      "poiId": 3,
+      "id": "poi_pochinok",
+      "name": "Pochinok",
+      "centerX": 1360,
+      "centerY": 1340,
+      "radiusMeters": 110,
+      "lootTierWeight": 1.25,
+      "isHotspot": false,
+      "heightLevel": 1
+    },
+    {
+      "poiId": 4,
+      "id": "poi_mill",
+      "name": "Mill",
+      "centerX": 1580,
+      "centerY": 520,
+      "radiusMeters": 105,
+      "lootTierWeight": 1.35,
+      "isHotspot": true,
+      "heightLevel": 2
+    },
+    {
+      "poiId": 5,
+      "id": "poi_mars",
+      "name": "Mars Electric",
+      "centerX": 960,
+      "centerY": 1620,
+      "radiusMeters": 115,
+      "lootTierWeight": 1.2,
+      "isHotspot": false,
+      "heightLevel": 1
+    },
+    {
+      "poiId": 6,
+      "id": "poi_factory",
+      "name": "Factory",
+      "centerX": 680,
+      "centerY": 1520,
+      "radiusMeters": 110,
+      "lootTierWeight": 1.35,
+      "isHotspot": true,
+      "heightLevel": 1
+    },
+    {
+      "poiId": 7,
+      "id": "poi_bimasakti",
+      "name": "Bimasakti Strip",
+      "centerX": 980,
+      "centerY": 740,
+      "radiusMeters": 110,
+      "lootTierWeight": 1.3,
+      "isHotspot": true,
+      "heightLevel": 1
+    },
+    {
+      "poiId": 8,
+      "id": "poi_katulistiwa",
+      "name": "Katulistiwa",
+      "centerX": 640,
+      "centerY": 680,
+      "radiusMeters": 100,
+      "lootTierWeight": 1.15,
+      "isHotspot": false,
+      "heightLevel": 1
+    },
+    {
+      "poiId": 9,
+      "id": "poi_kotatua",
+      "name": "Kota Tua",
+      "centerX": 1420,
+      "centerY": 1650,
+      "radiusMeters": 100,
+      "lootTierWeight": 1.1,
+      "isHotspot": false,
+      "heightLevel": 1
+    },
+    {
+      "poiId": 10,
+      "id": "poi_sentosa",
+      "name": "Sentosa",
+      "centerX": 1680,
+      "centerY": 1520,
+      "radiusMeters": 105,
+      "lootTierWeight": 1.3,
+      "isHotspot": false,
+      "heightLevel": 1
+    },
+    {
+      "poiId": 11,
+      "id": "poi_observatory",
+      "name": "Observatory",
+      "centerX": 380,
+      "centerY": 520,
+      "radiusMeters": 105,
+      "lootTierWeight": 1.35,
+      "isHotspot": false,
+      "heightLevel": 2
+    },
+    {
+      "poiId": 12,
+      "id": "poi_hangar",
+      "name": "Hangar",
+      "centerX": 440,
+      "centerY": 1460,
+      "radiusMeters": 105,
+      "lootTierWeight": 1.15,
+      "isHotspot": false,
+      "heightLevel": 1
+    },
+    {
+      "poiId": 13,
+      "id": "poi_plantation",
+      "name": "Plantation",
+      "centerX": 1260,
+      "centerY": 460,
+      "radiusMeters": 110,
+      "lootTierWeight": 1.15,
+      "isHotspot": false,
+      "heightLevel": 1
+    },
+    {
+      "poiId": 14,
+      "id": "poi_rimnam",
+      "name": "Rim Nam Village",
+      "centerX": 360,
+      "centerY": 960,
+      "radiusMeters": 100,
+      "lootTierWeight": 1.1,
+      "isHotspot": false,
+      "heightLevel": 0
+    }
+  ],
+  "buildings": [
+    {
+      "buildingId": 1,
+      "poiId": 1,
+      "minCellX": 132,
+      "minCellY": 132,
+      "widthCells": 4,
+      "heightCells": 3,
+      "heightMeters": 8
+    },
+    {
+      "buildingId": 2,
+      "poiId": 1,
+      "minCellX": 128,
+      "minCellY": 138,
+      "widthCells": 4,
+      "heightCells": 3,
+      "heightMeters": 8
+    },
+    {
+      "buildingId": 3,
+      "poiId": 1,
+      "minCellX": 124,
+      "minCellY": 132,
+      "widthCells": 4,
+      "heightCells": 3,
+      "heightMeters": 8
+    },
+    {
+      "buildingId": 4,
+      "poiId": 1,
+      "minCellX": 124,
+      "minCellY": 125,
+      "widthCells": 4,
+      "heightCells": 3,
+      "heightMeters": 8
+    },
+    {
+      "buildingId": 5,
+      "poiId": 1,
+      "minCellX": 130,
+      "minCellY": 128,
+      "widthCells": 4,
+      "heightCells": 3,
+      "heightMeters": 8
+    },
+    {
+      "buildingId": 6,
+      "poiId": 2,
+      "minCellX": 73,
+      "minCellY": 150,
+      "widthCells": 4,
+      "heightCells": 3,
+      "heightMeters": 8
+    },
+    {
+      "buildingId": 7,
+      "poiId": 2,
+      "minCellX": 69,
+      "minCellY": 156,
+      "widthCells": 4,
+      "heightCells": 3,
+      "heightMeters": 8
+    },
+    {
+      "buildingId": 8,
+      "poiId": 2,
+      "minCellX": 65,
+      "minCellY": 150,
+      "widthCells": 4,
+      "heightCells": 3,
+      "heightMeters": 8
+    },
+    {
+      "buildingId": 9,
+      "poiId": 2,
+      "minCellX": 65,
+      "minCellY": 143,
+      "widthCells": 4,
+      "heightCells": 3,
+      "heightMeters": 8
+    },
+    {
+      "buildingId": 10,
+      "poiId": 2,
+      "minCellX": 71,
+      "minCellY": 146,
+      "widthCells": 4,
+      "heightCells": 3,
+      "heightMeters": 8
+    },
+    {
+      "buildingId": 11,
+      "poiId": 3,
+      "minCellX": 176,
+      "minCellY": 170,
+      "widthCells": 4,
+      "heightCells": 3,
+      "heightMeters": 5.5
+    },
+    {
+      "buildingId": 12,
+      "poiId": 3,
+      "minCellX": 167,
+      "minCellY": 174,
+      "widthCells": 4,
+      "heightCells": 3,
+      "heightMeters": 5.5
+    },
+    {
+      "buildingId": 13,
+      "poiId": 3,
+      "minCellX": 171,
+      "minCellY": 165,
+      "widthCells": 4,
+      "heightCells": 3,
+      "heightMeters": 5.5
+    },
+    {
+      "buildingId": 14,
+      "poiId": 4,
+      "minCellX": 204,
+      "minCellY": 65,
+      "widthCells": 4,
+      "heightCells": 3,
+      "heightMeters": 8
+    },
+    {
+      "buildingId": 15,
+      "poiId": 4,
+      "minCellX": 200,
+      "minCellY": 71,
+      "widthCells": 4,
+      "heightCells": 3,
+      "heightMeters": 8
+    },
+    {
+      "buildingId": 16,
+      "poiId": 4,
+      "minCellX": 196,
+      "minCellY": 65,
+      "widthCells": 4,
+      "heightCells": 3,
+      "heightMeters": 8
+    },
+    {
+      "buildingId": 17,
+      "poiId": 4,
+      "minCellX": 196,
+      "minCellY": 58,
+      "widthCells": 4,
+      "heightCells": 3,
+      "heightMeters": 8
+    },
+    {
+      "buildingId": 18,
+      "poiId": 4,
+      "minCellX": 202,
+      "minCellY": 61,
+      "widthCells": 4,
+      "heightCells": 3,
+      "heightMeters": 8
+    },
+    {
+      "buildingId": 19,
+      "poiId": 5,
+      "minCellX": 124,
+      "minCellY": 206,
+      "widthCells": 4,
+      "heightCells": 3,
+      "heightMeters": 5.5
+    },
+    {
+      "buildingId": 20,
+      "poiId": 5,
+      "minCellX": 115,
+      "minCellY": 210,
+      "widthCells": 4,
+      "heightCells": 3,
+      "heightMeters": 5.5
+    },
+    {
+      "buildingId": 21,
+      "poiId": 5,
+      "minCellX": 119,
+      "minCellY": 201,
+      "widthCells": 4,
+      "heightCells": 3,
+      "heightMeters": 5.5
+    },
+    {
+      "buildingId": 22,
+      "poiId": 6,
+      "minCellX": 89,
+      "minCellY": 193,
+      "widthCells": 4,
+      "heightCells": 3,
+      "heightMeters": 8
+    },
+    {
+      "buildingId": 23,
+      "poiId": 6,
+      "minCellX": 85,
+      "minCellY": 199,
+      "widthCells": 4,
+      "heightCells": 3,
+      "heightMeters": 8
+    },
+    {
+      "buildingId": 24,
+      "poiId": 6,
+      "minCellX": 81,
+      "minCellY": 193,
+      "widthCells": 4,
+      "heightCells": 3,
+      "heightMeters": 8
+    },
+    {
+      "buildingId": 25,
+      "poiId": 6,
+      "minCellX": 81,
+      "minCellY": 186,
+      "widthCells": 4,
+      "heightCells": 3,
+      "heightMeters": 8
+    },
+    {
+      "buildingId": 26,
+      "poiId": 6,
+      "minCellX": 87,
+      "minCellY": 189,
+      "widthCells": 4,
+      "heightCells": 3,
+      "heightMeters": 8
+    },
+    {
+      "buildingId": 27,
+      "poiId": 7,
+      "minCellX": 127,
+      "minCellY": 93,
+      "widthCells": 4,
+      "heightCells": 3,
+      "heightMeters": 8
+    },
+    {
+      "buildingId": 28,
+      "poiId": 7,
+      "minCellX": 123,
+      "minCellY": 99,
+      "widthCells": 4,
+      "heightCells": 3,
+      "heightMeters": 8
+    },
+    {
+      "buildingId": 29,
+      "poiId": 7,
+      "minCellX": 119,
+      "minCellY": 93,
+      "widthCells": 4,
+      "heightCells": 3,
+      "heightMeters": 8
+    },
+    {
+      "buildingId": 30,
+      "poiId": 7,
+      "minCellX": 119,
+      "minCellY": 86,
+      "widthCells": 4,
+      "heightCells": 3,
+      "heightMeters": 8
+    },
+    {
+      "buildingId": 31,
+      "poiId": 7,
+      "minCellX": 125,
+      "minCellY": 89,
+      "widthCells": 4,
+      "heightCells": 3,
+      "heightMeters": 8
+    },
+    {
+      "buildingId": 32,
+      "poiId": 8,
+      "minCellX": 83,
+      "minCellY": 86,
+      "widthCells": 4,
+      "heightCells": 3,
+      "heightMeters": 5.5
+    },
+    {
+      "buildingId": 33,
+      "poiId": 8,
+      "minCellX": 74,
+      "minCellY": 90,
+      "widthCells": 4,
+      "heightCells": 3,
+      "heightMeters": 5.5
+    },
+    {
+      "buildingId": 34,
+      "poiId": 8,
+      "minCellX": 78,
+      "minCellY": 81,
+      "widthCells": 4,
+      "heightCells": 3,
+      "heightMeters": 5.5
+    },
+    {
+      "buildingId": 35,
+      "poiId": 9,
+      "minCellX": 183,
+      "minCellY": 210,
+      "widthCells": 4,
+      "heightCells": 3,
+      "heightMeters": 5.5
+    },
+    {
+      "buildingId": 36,
+      "poiId": 9,
+      "minCellX": 174,
+      "minCellY": 214,
+      "widthCells": 4,
+      "heightCells": 3,
+      "heightMeters": 5.5
+    },
+    {
+      "buildingId": 37,
+      "poiId": 9,
+      "minCellX": 178,
+      "minCellY": 205,
+      "widthCells": 4,
+      "heightCells": 3,
+      "heightMeters": 5.5
+    },
+    {
+      "buildingId": 38,
+      "poiId": 10,
+      "minCellX": 217,
+      "minCellY": 193,
+      "widthCells": 4,
+      "heightCells": 3,
+      "heightMeters": 5.5
+    },
+    {
+      "buildingId": 39,
+      "poiId": 10,
+      "minCellX": 208,
+      "minCellY": 197,
+      "widthCells": 4,
+      "heightCells": 3,
+      "heightMeters": 5.5
+    },
+    {
+      "buildingId": 40,
+      "poiId": 10,
+      "minCellX": 212,
+      "minCellY": 188,
+      "widthCells": 4,
+      "heightCells": 3,
+      "heightMeters": 5.5
+    },
+    {
+      "buildingId": 41,
+      "poiId": 11,
+      "minCellX": 50,
+      "minCellY": 65,
+      "widthCells": 4,
+      "heightCells": 3,
+      "heightMeters": 5.5
+    },
+    {
+      "buildingId": 42,
+      "poiId": 11,
+      "minCellX": 41,
+      "minCellY": 69,
+      "widthCells": 4,
+      "heightCells": 3,
+      "heightMeters": 5.5
+    },
+    {
+      "buildingId": 43,
+      "poiId": 11,
+      "minCellX": 45,
+      "minCellY": 60,
+      "widthCells": 4,
+      "heightCells": 3,
+      "heightMeters": 5.5
+    },
+    {
+      "buildingId": 44,
+      "poiId": 12,
+      "minCellX": 58,
+      "minCellY": 185,
+      "widthCells": 4,
+      "heightCells": 3,
+      "heightMeters": 5.5
+    },
+    {
+      "buildingId": 45,
+      "poiId": 12,
+      "minCellX": 49,
+      "minCellY": 189,
+      "widthCells": 4,
+      "heightCells": 3,
+      "heightMeters": 5.5
+    },
+    {
+      "buildingId": 46,
+      "poiId": 12,
+      "minCellX": 53,
+      "minCellY": 180,
+      "widthCells": 4,
+      "heightCells": 3,
+      "heightMeters": 5.5
+    },
+    {
+      "buildingId": 47,
+      "poiId": 13,
+      "minCellX": 163,
+      "minCellY": 57,
+      "widthCells": 4,
+      "heightCells": 3,
+      "heightMeters": 5.5
+    },
+    {
+      "buildingId": 48,
+      "poiId": 13,
+      "minCellX": 154,
+      "minCellY": 61,
+      "widthCells": 4,
+      "heightCells": 3,
+      "heightMeters": 5.5
+    },
+    {
+      "buildingId": 49,
+      "poiId": 13,
+      "minCellX": 158,
+      "minCellY": 52,
+      "widthCells": 4,
+      "heightCells": 3,
+      "heightMeters": 5.5
+    },
+    {
+      "buildingId": 50,
+      "poiId": 14,
+      "minCellX": 48,
+      "minCellY": 121,
+      "widthCells": 4,
+      "heightCells": 3,
+      "heightMeters": 5.5
+    },
+    {
+      "buildingId": 51,
+      "poiId": 14,
+      "minCellX": 39,
+      "minCellY": 125,
+      "widthCells": 4,
+      "heightCells": 3,
+      "heightMeters": 5.5
+    },
+    {
+      "buildingId": 52,
+      "poiId": 14,
+      "minCellX": 43,
+      "minCellY": 116,
+      "widthCells": 4,
+      "heightCells": 3,
+      "heightMeters": 5.5
+    }
+  ]
+}

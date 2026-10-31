@@ -1,0 +1,13 @@
+{
+  "maxCommandsPerMatch": 5,
+  "cooldownSec": 60.0,
+  "baseDelayTicks": 8,
+  "decisionDelayFactor": 2.8,
+  "commsDelayFactor": 2.4,
+  "synergyDelayFactor": 0.55,
+  "baseComplianceProb": 0.25,
+  "decisionComplianceScale": 0.018,
+  "commsComplianceScale": 0.014,
+  "synergyComplianceScale": 0.0022,
+  "utilityBiasBonus": 5.0
+}

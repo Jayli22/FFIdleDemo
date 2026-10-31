@@ -1,0 +1,11 @@
+{
+  "consistencyNormalDivisor": 25.0,
+  "offDayPenaltyMean": 2.0,
+  "offDayPenaltySpread": 1.0,
+  "bigMatchFinalsScale": 0.30,
+  "fatigueGainBasePerMatch": 11.0,
+  "fatigueGainStaminaScale": 0.35,
+  "fatigueThresholdBase": 25.0,
+  "fatigueThresholdStaminaScale": 1.0,
+  "fatiguePenaltyDivisor": 12.0
+}

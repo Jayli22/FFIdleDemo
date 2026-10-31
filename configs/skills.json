@@ -1,0 +1,125 @@
+{
+  "skills": [
+    {
+      "skillId": "sk_dash",
+      "name": "Tatsuya Rush",
+      "isActive": true,
+      "category": "Dash",
+      "tier": 1,
+      "cooldownSec": 40.0,
+      "durationSec": 4.0,
+      "effectValue": 0.35,
+      "bonusAttribute": "movement"
+    },
+    {
+      "skillId": "sk_shield",
+      "name": "Chrono Force Field",
+      "isActive": true,
+      "category": "Shield",
+      "tier": 1,
+      "cooldownSec": 50.0,
+      "durationSec": 5.0,
+      "effectValue": 0.45,
+      "bonusAttribute": "positioning"
+    },
+    {
+      "skillId": "sk_scan",
+      "name": "Clu Tracing Steps",
+      "isActive": true,
+      "category": "Scan",
+      "tier": 1,
+      "cooldownSec": 45.0,
+      "durationSec": 6.0,
+      "effectValue": 55.0,
+      "bonusAttribute": "awareness"
+    },
+    {
+      "skillId": "sk_heal",
+      "name": "Alok Drop the Beat",
+      "isActive": true,
+      "category": "HealAura",
+      "tier": 1,
+      "cooldownSec": 45.0,
+      "durationSec": 5.0,
+      "effectValue": 8.0,
+      "bonusAttribute": "teamwork"
+    },
+    {
+      "skillId": "sk_deploy",
+      "name": "Skyler Riptide",
+      "isActive": true,
+      "category": "Deployable",
+      "tier": 1,
+      "cooldownSec": 42.0,
+      "durationSec": 4.0,
+      "effectValue": 2.0,
+      "bonusAttribute": "utility"
+    },
+    {
+      "skillId": "sk_p_aim",
+      "name": "Sharp Eye",
+      "isActive": false,
+      "category": "Passive",
+      "tier": 1,
+      "cooldownSec": 0.0,
+      "durationSec": 0.0,
+      "effectValue": 1.0,
+      "bonusAttribute": "aim"
+    },
+    {
+      "skillId": "sk_p_move",
+      "name": "Kelly Dash",
+      "isActive": false,
+      "category": "Passive",
+      "tier": 1,
+      "cooldownSec": 0.0,
+      "durationSec": 0.0,
+      "effectValue": 1.0,
+      "bonusAttribute": "movement"
+    },
+    {
+      "skillId": "sk_p_armor",
+      "name": "Andrew Wolf Pack",
+      "isActive": false,
+      "category": "Passive",
+      "tier": 1,
+      "cooldownSec": 0.0,
+      "durationSec": 0.0,
+      "effectValue": 0.05,
+      "bonusAttribute": "composure"
+    },
+    {
+      "skillId": "sk_p_gloo",
+      "name": "Nairi Ice Iron",
+      "isActive": false,
+      "category": "Passive",
+      "tier": 1,
+      "cooldownSec": 0.0,
+      "durationSec": 0.0,
+      "effectValue": 1.0,
+      "bonusAttribute": "utility"
+    },
+    {
+      "skillId": "sk_p_heal",
+      "name": "Kapella Healing Song",
+      "isActive": false,
+      "category": "Passive",
+      "tier": 1,
+      "cooldownSec": 0.0,
+      "durationSec": 0.0,
+      "effectValue": 1.0,
+      "bonusAttribute": "teamwork"
+    },
+    {
+      "skillId": "sk_p_loot",
+      "name": "Paloma Arms-dealing",
+      "isActive": false,
+      "category": "Passive",
+      "tier": 1,
+      "cooldownSec": 0.0,
+      "durationSec": 0.0,
+      "effectValue": 1.0,
+      "bonusAttribute": "looting"
+    }
+  ]
+}

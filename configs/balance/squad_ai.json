@@ -1,0 +1,12 @@
+{
+  "evalIntervalTicks": 20,
+  "decisionNoiseDivisor": 4.0,
+  "commsDelayMultiplierTicks": 2,
+  "zoneUrgencyWeight": 1.5,
+  "highGroundWeight": 0.8,
+  "coverWeight": 0.9,
+  "threatAvoidanceWeight": 1.1,
+  "lootDeficitWeight": 1.0,
+  "earlyRotateLeadBaseSec": 18.0,
+  "decisionRotateBonusSecPerPoint": 1.6
+}

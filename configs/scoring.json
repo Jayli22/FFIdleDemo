@@ -1,0 +1,8 @@
+{
+  "placementPoints": [ 12, 9, 8, 7, 6, 5, 4, 3, 2, 1, 0, 0 ],
+  "killPoints": 1,
+  "pointRushHeadstart": [ 10, 8, 7, 6, 5, 4, 3, 2, 1, 1, 0, 0 ],
+  "championRushThreshold": 80,
+  "championRushMaxMatches": 8,
+  "matchesPerDay": 6
+}

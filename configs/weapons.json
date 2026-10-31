@@ -1,0 +1,31 @@
+{
+  "weapons": [
+    { "weaponId": "wp_ar_t1", "name": "M4A1-I", "category": "AR", "tier": 1, "damage": 24.0, "rangeMeters": 85.0, "shotsPerRound": 3, "accClose": 0.48, "accMid": 0.42, "accFar": 0.24 },
+    { "weaponId": "wp_ar_t2", "name": "AK47-II", "category": "AR", "tier": 2, "damage": 29.0, "rangeMeters": 90.0, "shotsPerRound": 3, "accClose": 0.52, "accMid": 0.47, "accFar": 0.28 },
+    { "weaponId": "wp_ar_t3", "name": "Groza-III", "category": "AR", "tier": 3, "damage": 34.0, "rangeMeters": 95.0, "shotsPerRound": 3, "accClose": 0.58, "accMid": 0.53, "accFar": 0.34 },
+
+    { "weaponId": "wp_smg_t1", "name": "MP5-I", "category": "SMG", "tier": 1, "damage": 18.0, "rangeMeters": 45.0, "shotsPerRound": 4, "accClose": 0.58, "accMid": 0.32, "accFar": 0.10 },
+    { "weaponId": "wp_smg_t2", "name": "MP40-II", "category": "SMG", "tier": 2, "damage": 22.0, "rangeMeters": 48.0, "shotsPerRound": 4, "accClose": 0.64, "accMid": 0.36, "accFar": 0.12 },
+    { "weaponId": "wp_smg_t3", "name": "MAC10-III", "category": "SMG", "tier": 3, "damage": 25.0, "rangeMeters": 52.0, "shotsPerRound": 4, "accClose": 0.70, "accMid": 0.40, "accFar": 0.15 },
+
+    { "weaponId": "wp_sg_t1", "name": "M1014-I", "category": "SG", "tier": 1, "damage": 38.0, "rangeMeters": 22.0, "shotsPerRound": 2, "accClose": 0.62, "accMid": 0.15, "accFar": 0.04 },
+    { "weaponId": "wp_sg_t2", "name": "M1887-II", "category": "SG", "tier": 2, "damage": 48.0, "rangeMeters": 25.0, "shotsPerRound": 2, "accClose": 0.68, "accMid": 0.18, "accFar": 0.05 },
+    { "weaponId": "wp_sg_t3", "name": "MAG7-III", "category": "SG", "tier": 3, "damage": 54.0, "rangeMeters": 28.0, "shotsPerRound": 2, "accClose": 0.74, "accMid": 0.22, "accFar": 0.06 },
+
+    { "weaponId": "wp_dmr_t1", "name": "SKS-I", "category": "DMR", "tier": 1, "damage": 42.0, "rangeMeters": 125.0, "shotsPerRound": 2, "accClose": 0.32, "accMid": 0.50, "accFar": 0.44 },
+    { "weaponId": "wp_dmr_t2", "name": "Woodpecker-II", "category": "DMR", "tier": 2, "damage": 50.0, "rangeMeters": 135.0, "shotsPerRound": 2, "accClose": 0.36, "accMid": 0.56, "accFar": 0.50 },
+    { "weaponId": "wp_dmr_t3", "name": "AC80-III", "category": "DMR", "tier": 3, "damage": 58.0, "rangeMeters": 145.0, "shotsPerRound": 2, "accClose": 0.40, "accMid": 0.62, "accFar": 0.56 },
+
+    { "weaponId": "wp_sr_t1", "name": "Kar98k-I", "category": "SR", "tier": 1, "damage": 72.0, "rangeMeters": 160.0, "shotsPerRound": 1, "accClose": 0.22, "accMid": 0.48, "accFar": 0.55 },
+    { "weaponId": "wp_sr_t2", "name": "M82B-II", "category": "SR", "tier": 2, "damage": 84.0, "rangeMeters": 175.0, "shotsPerRound": 1, "accClose": 0.25, "accMid": 0.54, "accFar": 0.62 },
+    { "weaponId": "wp_sr_t3", "name": "AWM-III", "category": "SR", "tier": 3, "damage": 96.0, "rangeMeters": 190.0, "shotsPerRound": 1, "accClose": 0.28, "accMid": 0.60, "accFar": 0.70 }
+  ],
+  "throwable": {
+    "minRangeMeters": 12.0,
+    "maxRangeMeters": 48.0,
+    "blastRadiusMeters": 7.0,
+    "baseDamage": 68.0,
+    "glooDamageMultiplier": 2.5,
+    "baseTriggerChance": 0.28
+  }
+}

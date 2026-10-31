@@ -1,0 +1,44 @@
+{
+  "roles": [
+    {
+      "role": "Rusher",
+      "forwardOffsetMeters": 10.0,
+      "sideOffsetMeters": 0.0,
+      "highGroundPreference": 0.2,
+      "preferredWeaponCategory": "SMG",
+      "primaryAttributes": [ "cqc", "reflex", "movement", "aim" ]
+    },
+    {
+      "role": "SecondRusher",
+      "forwardOffsetMeters": 6.0,
+      "sideOffsetMeters": 5.0,
+      "highGroundPreference": 0.3,
+      "preferredWeaponCategory": "AR",
+      "primaryAttributes": [ "teamwork", "cqc", "aim", "recoil" ]
+    },
+    {
+      "role": "Sniper",
+      "forwardOffsetMeters": -10.0,
+      "sideOffsetMeters": -4.0,
+      "highGroundPreference": 0.9,
+      "preferredWeaponCategory": "SR",
+      "primaryAttributes": [ "longRange", "aim", "positioning", "awareness" ]
+    },
+    {
+      "role": "Support",
+      "forwardOffsetMeters": -6.0,
+      "sideOffsetMeters": 4.0,
+      "highGroundPreference": 0.5,
+      "preferredWeaponCategory": "AR",
+      "primaryAttributes": [ "utility", "teamwork", "decision", "comms" ]
+    },
+    {
+      "role": "Grenadier",
+      "forwardOffsetMeters": 2.0,
+      "sideOffsetMeters": -5.0,
+      "highGroundPreference": 0.4,
+      "preferredWeaponCategory": "SG",
+      "primaryAttributes": [ "utility", "cqc", "positioning", "awareness" ]
+    }
+  ]
+}

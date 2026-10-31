@@ -1,0 +1,12 @@
+{
+  "baseMoveSpeedMetersPerSec": 5.4,
+  "movementSpeedScalePerPoint": 0.015,
+  "healHpThresholdRatio": 0.45,
+  "healDurationSec": 4.0,
+  "healAmount": 45.0,
+  "coverSearchRadiusCells": 4,
+  "positioningTemperatureScale": 2.5,
+  "lootBaseIntervalTicks": 35,
+  "lootingSpeedReductionTicksPerPoint": 1.2,
+  "lootingQualityBonusPerPoint": 0.035
+}

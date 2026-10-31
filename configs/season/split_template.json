@@ -1,0 +1,11 @@
+{
+  "totalTeams": 18,
+  "groupsCount": 3,
+  "teamsPerMatch": 12,
+  "regularSeasonWeeks": 4,
+  "matchDaysPerWeek": 2,
+  "matchesPerDay": 6,
+  "pointRushMatches": 12,
+  "finalsQualifiers": 12,
+  "maxImportsPerLineup": 1
+}

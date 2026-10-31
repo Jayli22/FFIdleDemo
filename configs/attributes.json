@@ -1,0 +1,25 @@
+{
+  "scaleMin": 1.0,
+  "scaleMax": 20.0,
+  "attributes": [
+    { "id": "aim", "group": "mechanical", "min": 1.0, "max": 20.0, "visibleToPlayer": true, "dominantScenario": "Base hit probability across all engagements", "description": "Aiming precision and target acquisition." },
+    { "id": "recoil", "group": "mechanical", "min": 1.0, "max": 20.0, "visibleToPlayer": true, "dominantScenario": "Sustained fire decay suppression", "description": "Control over weapon spray in consecutive rounds." },
+    { "id": "reflex", "group": "mechanical", "min": 1.0, "max": 20.0, "visibleToPlayer": true, "dominantScenario": "Initiative and first-shot draw speed", "description": "Reaction speed when spotting or being ambushed." },
+    { "id": "movement", "group": "mechanical", "min": 1.0, "max": 20.0, "visibleToPlayer": true, "dominantScenario": "Evasion and rotation traversal speed", "description": "Footwork, strafing evasion, and sprint mobility." },
+    { "id": "cqc", "group": "mechanical", "min": 1.0, "max": 20.0, "visibleToPlayer": true, "dominantScenario": "Close quarters combat (<25m) hit multiplier", "description": "Shotgun/SMG close-range dueling mastery." },
+    { "id": "longRange", "group": "mechanical", "min": 1.0, "max": 20.0, "visibleToPlayer": true, "dominantScenario": "Long-range (>70m) accuracy and overwatch suppression", "description": "DMR/SR bullet lead and long-distance precision." },
+    { "id": "awareness", "group": "tactical", "min": 1.0, "max": 20.0, "visibleToPlayer": true, "dominantScenario": "Spotting enemies first & avoiding third-party ambushes", "description": "Battlefield information gathering and flank detection." },
+    { "id": "positioning", "group": "tactical", "min": 1.0, "max": 20.0, "visibleToPlayer": true, "dominantScenario": "Cover selection quality and LOS exposure reduction", "description": "Micro-positioning around terrain and building cover." },
+    { "id": "utility", "group": "tactical", "min": 1.0, "max": 20.0, "visibleToPlayer": true, "dominantScenario": "Gloo Wall HP/speed, grenade trigger/damage, skill cooldown", "description": "Mastery of Gloo Walls, throwables, and active skills." },
+    { "id": "looting", "group": "tactical", "min": 1.0, "max": 20.0, "visibleToPlayer": true, "dominantScenario": "Loot speed and higher tier gear probability", "description": "Route efficiency during the looting phase." },
+    { "id": "decision", "group": "tactical", "min": 1.0, "max": 20.0, "visibleToPlayer": true, "dominantScenario": "IGL rotation timing, utility scoring noise, command compliance", "description": "Macro call quality and tactical judgment under pressure." },
+    { "id": "comms", "group": "tactical", "min": 1.0, "max": 20.0, "visibleToPlayer": true, "dominantScenario": "Squad focus-fire synchronization & command response latency", "description": "Clarity and speed of team callouts." },
+    { "id": "composure", "group": "mental", "min": 1.0, "max": 20.0, "visibleToPlayer": true, "dominantScenario": "EndGame (Zone >= 5) and Clutch (1vN) hit stability", "description": "Resistance to choke and accuracy penalty in late circles." },
+    { "id": "teamwork", "group": "mental", "min": 1.0, "max": 20.0, "visibleToPlayer": true, "dominantScenario": "Trade-fire trigger probability and faster teammate revive", "description": "Willingness and timing to support and trade for teammates." },
+    { "id": "determination", "group": "mental", "min": 1.0, "max": 20.0, "visibleToPlayer": true, "dominantScenario": "Weekly training growth rate and comeback resilience", "description": "Drive to improve in training and bounce back from losses." },
+    { "id": "consistency", "group": "hidden", "min": 1.0, "max": 20.0, "visibleToPlayer": false, "dominantScenario": "Pre-match daily roll variance (prevents off-days)", "description": "Hidden stability across matches." },
+    { "id": "bigMatch", "group": "hidden", "min": 1.0, "max": 20.0, "visibleToPlayer": false, "dominantScenario": "Grand Finals (Point Rush / Champion Rush) bonus", "description": "Hidden clutch elevation on the biggest stages." },
+    { "id": "injuryProne", "group": "hidden", "min": 1.0, "max": 20.0, "visibleToPlayer": false, "dominantScenario": "Risk of wrist/fatigue injury when overworked", "description": "Hidden susceptibility to physical strain." },
+    { "id": "stamina", "group": "condition", "min": 1.0, "max": 20.0, "visibleToPlayer": true, "dominantScenario": "6-match BO6 endurance and fatigue threshold", "description": "Physical stamina across long match days." }
+  ]
+}

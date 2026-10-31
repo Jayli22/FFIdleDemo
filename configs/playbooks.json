@@ -1,0 +1,22 @@
+{
+  "dropOptions": [
+    { "style": "Hot", "hotspotWeightMod": 1.6, "earlyRotateSecOffset": 0.0, "aggressionMod": 1.25, "highGroundBias": 1.0, "coverBias": 1.0 },
+    { "style": "Flex", "hotspotWeightMod": 1.0, "earlyRotateSecOffset": 0.0, "aggressionMod": 1.0, "highGroundBias": 1.0, "coverBias": 1.0 },
+    { "style": "Cold", "hotspotWeightMod": 0.45, "earlyRotateSecOffset": 5.0, "aggressionMod": 0.8, "highGroundBias": 1.0, "coverBias": 1.1 }
+  ],
+  "rotationOptions": [
+    { "style": "Early", "hotspotWeightMod": 1.0, "earlyRotateSecOffset": 14.0, "aggressionMod": 0.9, "highGroundBias": 1.2, "coverBias": 1.15 },
+    { "style": "Edge", "hotspotWeightMod": 1.0, "earlyRotateSecOffset": 0.0, "aggressionMod": 1.1, "highGroundBias": 1.0, "coverBias": 1.0 },
+    { "style": "Late", "hotspotWeightMod": 1.0, "earlyRotateSecOffset": -10.0, "aggressionMod": 1.05, "highGroundBias": 0.9, "coverBias": 0.95 }
+  ],
+  "engageOptions": [
+    { "style": "Contest", "hotspotWeightMod": 1.2, "earlyRotateSecOffset": 0.0, "aggressionMod": 1.35, "highGroundBias": 1.0, "coverBias": 0.9 },
+    { "style": "Balanced", "hotspotWeightMod": 1.0, "earlyRotateSecOffset": 0.0, "aggressionMod": 1.0, "highGroundBias": 1.0, "coverBias": 1.0 },
+    { "style": "Avoid", "hotspotWeightMod": 0.7, "earlyRotateSecOffset": 4.0, "aggressionMod": 0.65, "highGroundBias": 1.1, "coverBias": 1.25 }
+  ],
+  "endgameOptions": [
+    { "style": "HighGround", "hotspotWeightMod": 1.0, "earlyRotateSecOffset": 4.0, "aggressionMod": 1.05, "highGroundBias": 1.6, "coverBias": 1.1 },
+    { "style": "Building", "hotspotWeightMod": 1.0, "earlyRotateSecOffset": 6.0, "aggressionMod": 0.95, "highGroundBias": 1.1, "coverBias": 1.5 },
+    { "style": "GlooFort", "hotspotWeightMod": 1.0, "earlyRotateSecOffset": 0.0, "aggressionMod": 1.1, "highGroundBias": 1.0, "coverBias": 1.35 }
+  ]
+}

@@ -1,0 +1,24 @@
+[gd_scene load_steps=6 format=3 uid="uid://bmatchffm00003"]
+
+[ext_resource type="Script" path="res://client/scripts/view/MapBuilder.cs" id="1_mapbuilder"]
+[ext_resource type="Script" path="res://client/scripts/view/BattlefieldView.cs" id="2_battlefield"]
+[ext_resource type="Script" path="res://client/scripts/camera/CameraRig.cs" id="3_camerarig"]
+[ext_resource type="Script" path="res://client/scripts/camera/BroadcastDirector.cs" id="4_director"]
+[ext_resource type="Script" path="res://client/scripts/sim/SimHost.cs" id="5_simhost"]
+
+[node name="Match" type="Node3D"]
+
+[node name="MapBuilder" type="Node3D" parent="."]
+script = ExtResource("1_mapbuilder")
+
+[node name="BattlefieldView" type="Node3D" parent="."]
+script = ExtResource("2_battlefield")
+
+[node name="CameraRig" type="Node3D" parent="."]
+script = ExtResource("3_camerarig")
+
+[node name="BroadcastDirector" type="Node" parent="."]
+script = ExtResource("4_director")
+
+[node name="SimHost" type="Node" parent="."]
+script = ExtResource("5_simhost")
